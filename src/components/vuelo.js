@@ -71,7 +71,6 @@ const VueloStyled = styled.div`
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     row-gap: 1rem;
-    column-gap: 3rem;
   }
   .aero1 {
     display: flex;
