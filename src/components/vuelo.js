@@ -89,14 +89,14 @@ function Vuelo() {
         <div className="reservaConten">
           <div className="reserva">
             <h2>RESERVA TU VUELO YA.</h2>
-            <h3>
-              sale más economico comprarlo con tiempo que hacerlo sobre la fecha
-              del viaje.
-            </h3>
           </div>
           <AirplaneBogColIcon />
         </div>
         <div className="fechasVuelos">
+          <h3>
+            sale más economico comprarlo con tiempo que hacerlo sobre la fecha
+            del viaje.
+          </h3>
           <h4>Fecha sugerida: 16/06/2023 - 19/06/2023 </h4>
           <h5>Estas son algunas de las aerolineas que te recomendamos:</h5>
         </div>
