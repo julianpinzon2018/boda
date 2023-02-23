@@ -28,28 +28,34 @@ const TransporteStyled = styled.div`
     gap: 0.9rem;
   }
   h3 {
+    margin-block-start: 1.2rem;
     font: var(--seis);
-    line-height: 0.9rem;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    margin-block-end: 0.3rem;
   }
   .barra {
-    padding-bottom: 1rem;
+    margin-block-end: 0.5rem;
     border-bottom: 2px solid var(--background);
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
   }
   .carros {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-block-end: 0.8rem;
     justify-content: space-between;
   }
   h4 {
     font: var(--cuatro);
-    font-size: 0.7rem;
-    line-height: 0.8rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
     text-decoration-line: underline;
   }
   h5 {
     font: var(--siete);
+    font-size: 0.8rem;
   }
 `;
 

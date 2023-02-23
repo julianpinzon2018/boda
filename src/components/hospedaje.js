@@ -21,10 +21,9 @@ const HospedajeStyled = styled.div`
   .reservaLogo {
     display: flex;
     gap: 1rem;
-    justify-content: space-between;
+    flex-direction: column;
     border-bottom: 2px solid var(--background);
-    margin-top: 0.3rem;
-    padding-bottom: 0.5rem;
+    margin-block-end: 0.5rem;
   }
   h2 {
     font: var(--cinco);
@@ -32,22 +31,26 @@ const HospedajeStyled = styled.div`
   }
   h3 {
     font: var(--seis);
-    font-size: 1.4rem;
-    margin-bottom: 3rem;
+    font-size: 1.2rem;
   }
   h4 {
-    font: var(--tres);
-    font-size: 0.8rem;
-    margin-bottom: 0.3rem;
+    margin-block-start: 1.2rem;
+    margin-block-end: 0.3rem;
+    font: var(--seis);
+    font-size: 1.1rem;
   }
   h5 {
     font: var(--tres);
-    font-size: 0.8rem;
   }
   .iconoGhl {
     display: flex;
     justify-content: center;
     margin-inline-end: 7rem;
+  }
+  .reservaTitle {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
   }
 `;
 
@@ -55,15 +58,14 @@ function Hospedaje() {
   return (
     <HospedajeStyled>
       <div className="reservaLogo">
-        <div>
+        <div className="reservaTitle">
           <div>
             <h2>RESERVA TU HOSPEDAJE</h2>
             <h3>en Villavicencio</h3>
           </div>
-          <h4>Sugerimos este hotel</h4>
+          <HotelBellIcon />
         </div>
-
-        <HotelBellIcon />
+        <h4>Sugerimos este hotel</h4>
       </div>
       <div className="iconoGhl">
         <GhlIcon />
