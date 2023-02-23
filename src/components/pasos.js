@@ -24,7 +24,7 @@ const PasosStyled = styled.div`
     color: var(--amarillo);
     margin: 0;
     text-align: center;
-    margin-block-end: 1rem;
+    margin-block-end: 0.5rem;
   }
   .footerInvitacion {
     display: flex;

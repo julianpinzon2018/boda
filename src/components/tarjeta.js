@@ -5,6 +5,7 @@ const TarjetaStyled = styled.div`
   block-size: 18.5rem;
   position: relative;
   display: flex;
+  margin-block: 0.5rem;
 
   .tarj {
     block-size: 100%;

@@ -11,7 +11,7 @@ const VueloStyled = styled.div`
 
   display: flex;
   flex-direction: column;
-  padding-inline: 1.8rem;
+  padding-inline: 1.5rem;
   padding-block: 1rem;
   box-sizing: border-box;
   justify-content: space-between;
@@ -32,7 +32,7 @@ const VueloStyled = styled.div`
 
   h2 {
     font: var(--cinco);
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   h3 {
     font: var(--seis);
@@ -54,11 +54,10 @@ const VueloStyled = styled.div`
   }
   .reservaConten {
     display: flex;
-    gap: 0.8rem;
     justify-content: space-between;
   }
   .reserva {
-    inline-size: 60%;
+    inline-size: 70%;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;

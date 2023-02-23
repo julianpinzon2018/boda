@@ -8,7 +8,7 @@ const MaletaStyled = styled.div`
   block-size: 100%;
   display: flex;
   flex-direction: column;
-  padding-inline: 1.8rem;
+  padding-inline: 1.5rem;
   padding-block: 1rem;
   box-sizing: border-box;
   justify-content: space-between;

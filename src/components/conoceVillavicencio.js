@@ -45,7 +45,7 @@ const ConoceVillavicencioStyled = styled.div`
     grid-template-columns: auto 1fr auto 1fr;
     grid-template-rows: auto auto auto;
 
-    column-gap: 0.5rem;
+    column-gap: 0.1rem;
     row-gap: 2rem;
 
     color: var(--oscuro);

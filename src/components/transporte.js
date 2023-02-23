@@ -9,7 +9,7 @@ const TransporteStyled = styled.div`
   flex-direction: column;
 
   padding-block: 1rem;
-  padding-inline: 1.8rem;
+  padding-inline: 1.5rem;
   box-sizing: border-box;
   gap: 0.3rem;
   justify-content: space-between;
@@ -20,7 +20,7 @@ const TransporteStyled = styled.div`
   }
   h2 {
     font: var(--cinco);
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   .transContainer {
     display: flex;
