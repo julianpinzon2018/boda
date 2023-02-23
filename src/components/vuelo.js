@@ -42,7 +42,7 @@ const VueloStyled = styled.div`
   }
   h4 {
     font: var(--seis);
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.2rem;
   }
   h5 {
@@ -103,7 +103,7 @@ function Vuelo() {
             del viaje.
           </h3>
           <h4>
-            Fecha sugerida:
+            Fecha sugerida
             <br />
             <span className="styleDecha"> 16/06/2023 - 19/06/2023</span>
           </h4>
