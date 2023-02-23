@@ -7,12 +7,12 @@ const TransporteStyled = styled.div`
   inline-size: 100%;
   display: flex;
   flex-direction: column;
-  padding-inline-start: 3rem;
-  padding-inline-end: 1.8rem;
-  padding-block-start: 0.7rem;
-  padding-block-end: 0.5rem;
+
+  padding-block: 1rem;
+  padding-inline: 2rem;
   box-sizing: border-box;
   gap: 0.3rem;
+  justify-content: space-between;
 
   * {
     margin: 0;

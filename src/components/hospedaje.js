@@ -9,9 +9,8 @@ const HospedajeStyled = styled.div`
   flex-direction: column;
   justify-content: space-between;
 
-  padding-block: 1.2rem;
-  padding-inline-start: 3rem;
-  padding-inline-end: 1.8rem;
+  padding-block: 1rem;
+  padding-inline: 2rem;
 
   color: var(--oscuro);
   box-sizing: border-box;

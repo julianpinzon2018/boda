@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const TarjetaStyled = styled.div`
   inline-size: 100%;
-  block-size: 12.5rem;
+  block-size: 14.5rem;
   position: relative;
   display: flex;
 
@@ -11,14 +11,13 @@ const TarjetaStyled = styled.div`
     inline-size: 100%;
     z-index: -1;
     border-radius: 1.3rem;
-    margin-inline-start: 0.92rem;
     overflow: hidden;
   }
   .icono {
     margin: auto;
-
     position: absolute;
     inset-block-start: 21%;
+    transform: translateX(-47%);
   }
 `;
 

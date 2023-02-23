@@ -11,11 +11,11 @@ const VueloStyled = styled.div`
 
   display: flex;
   flex-direction: column;
-  padding-block: 1.2rem;
-  padding-inline-start: 3rem;
-  padding-inline-end: 1.8rem;
-  gap: 0.5rem;
+  padding-inline: 2rem;
+  padding-block: 1rem;
   box-sizing: border-box;
+  justify-content: space-between;
+  gap: 0.5rem;
 
   color: var(--oscuro);
   * {
@@ -25,35 +25,47 @@ const VueloStyled = styled.div`
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
-    padding-bottom: 5px;
-    border-bottom: 2px solid var(--background);
+    justify-content: space-between;
+    /* border-bottom: 2px solid var(--background); */
   }
 
   h2 {
     font: var(--cinco);
-    margin-bottom: 3px;
   }
   h3 {
-    font: var(--seis);
-    font-size: 0.6rem;
+    font: var(--siete);
+    line-height: 0.8rem;
   }
   h4 {
     font: var(--siete);
+    line-height: 0.8rem;
   }
   h5 {
     font: var(--siete);
+    line-height: 0.8rem;
+  }
+  .fechasVuelos {
+    padding-block: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
   }
   .reservaConten {
     display: flex;
     gap: 0.8rem;
+    justify-content: space-between;
   }
   .reserva {
     inline-size: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
   }
   .contenAero {
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
+    justify-content: space-between;
   }
   .aero1 {
     display: flex;
@@ -79,11 +91,12 @@ function Vuelo() {
           </div>
           <AirplaneBogColIcon />
         </div>
-        <h4>
-          Fecha sugerida: <span>16/06/2023</span> - <span>19/06/2023</span>
-        </h4>
-        <h5>Estas son algunas de las aerolineas que te recomendamos:</h5>
+        <div className="fechasVuelos">
+          <h4>Fecha sugerida: 16/06/2023 - 19/06/2023 </h4>
+          <h5>Estas son algunas de las aerolineas que te recomendamos:</h5>
+        </div>
       </div>
+      <hr />
       <div className="contenAero">
         <div className="aero1">
           <AviancaLogo />

@@ -8,10 +8,10 @@ const MaletaStyled = styled.div`
   block-size: 100%;
   display: flex;
   flex-direction: column;
-  padding-inline-start: 3rem;
-  padding-inline-end: 1.8rem;
-  padding-block: 0.3rem;
+  padding-inline: 2rem;
+  padding-block: 1rem;
   box-sizing: border-box;
+  justify-content: space-between;
 
   * {
     margin: 0;
@@ -64,7 +64,6 @@ const MaletaStyled = styled.div`
     align-items: center;
   }
   .maletaContainerTitle {
-    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     gap: 0.7rem;

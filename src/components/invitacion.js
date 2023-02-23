@@ -8,6 +8,7 @@ import BadgeWelcomeToColombia from "./icons/badge_welcome_to_colombia";
 const ProfileStyled = styled.header`
   position: relative;
   overflow: hidden;
+  box-sizing: border-box;
 
   .imageBackground {
     position: absolute;
@@ -62,12 +63,13 @@ const ProfileStyled = styled.header`
     font-size: 0.9rem;
   }
   .lugar {
-    font: var(--cuatro);
+    font: var(--nueve);
     color: var(--casar);
     margin: 0;
   }
   .datos {
-    margin-block: 0.7rem;
+    margin-block-start: 0.7rem;
+    margin-block-end: 0.1rem;
   }
   .emocion {
     font: var(--cinco);
@@ -80,7 +82,8 @@ const ProfileStyled = styled.header`
     font: var(--cinco);
     color: var(--oscuro);
     font-size: 1.2rem;
-    margin-block: 0.6rem;
+    margin-block-start: 0.3rem;
+    margin-block-end: 0.3rem;
   }
   .queremos {
     font: var(--seis);
