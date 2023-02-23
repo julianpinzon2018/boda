@@ -21,6 +21,8 @@ const MaletaStyled = styled.div`
     display: flex;
     gap: 1rem;
     justify-content: space-between;
+    align-items: center;
+    margin-block-end: 0.5rem;
   }
   .maletaContainer {
     border-bottom: 2px solid var(--background);
