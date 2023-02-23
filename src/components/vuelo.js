@@ -37,7 +37,7 @@ const VueloStyled = styled.div`
   h3 {
     font: var(--seis);
     line-height: 1rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-block-end: 0.3rem;
   }
   h4 {
@@ -49,7 +49,7 @@ const VueloStyled = styled.div`
     font: var(--seis);
     margin-block-start: 1.2rem;
     font-style: italic;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .fechasVuelos {
     padding-block: 0.3rem;
