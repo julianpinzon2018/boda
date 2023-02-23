@@ -104,7 +104,8 @@ function Maleta() {
         </div>
         <div className="containerPerson">
           <p className="ropa">
-            <span className="person">mujeres &nbsp;</span> evitar color blanco
+            <span className="person">mujeres &nbsp;</span> Vestido largo de
+            color pastel, evitar color blanco o similares.
           </p>
         </div>
         <div className="iconoPerson">
@@ -113,7 +114,8 @@ function Maleta() {
 
         <div className="containerPerson">
           <p className="ropa">
-            <span className="person">hombres &nbsp;</span> evitar color rosa
+            <span className="person">hombres &nbsp;</span>Guayabera blanca o de
+            colores pastel
           </p>
         </div>
       </div>
