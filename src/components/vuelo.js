@@ -36,7 +36,7 @@ const VueloStyled = styled.div`
   }
   h3 {
     font: var(--seis);
-    line-height: 1rem;
+    line-height: 1.2rem;
     font-size: 1.1rem;
     margin-block-end: 0.3rem;
   }
