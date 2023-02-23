@@ -15,15 +15,16 @@ import anillos from "./images/wedding_rings_circle.png";
 const PasosStyled = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 0.7rem;
   margin: auto;
   inline-size: 85%;
+  margin-block-start: 1rem;
   .queremos {
     font: var(--seis);
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     color: var(--amarillo);
     margin: 0;
     text-align: center;
+    margin-block-end: 1rem;
   }
   .footerInvitacion {
     display: flex;
@@ -32,7 +33,7 @@ const PasosStyled = styled.div`
   }
   .anillo {
     width: auto;
-    height: 3rem;
+    height: 3.5rem;
   }
 `;
 
@@ -46,7 +47,7 @@ function Pasos() {
       <h4 className="queremos">
         Queremos que este viaje sea increíble.
         <br />
-        Preparate para escribir esta historia con nosotros
+        Preparate para vivir esta historia
       </h4>
 
       <Tarjeta comp={<Vuelo />} icon={<NumberOneIcon />} />
