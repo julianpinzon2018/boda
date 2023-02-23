@@ -32,7 +32,6 @@ const MaletaStyled = styled.div`
   }
   h3 {
     font: var(--seis);
-    line-height: 2rem;
   }
   h4 {
     font: var(--seis);
