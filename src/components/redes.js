@@ -11,11 +11,10 @@ const RedesStyled = styled.div`
   margin-top: 0.5rem;
   box-shadow: 2px 2px 5px rgba(000, 000, 000, 0.5);
 
-  .redes {
+  .redess {
     font: var(--siete);
 
     color: var(--oscuro);
-    margin: 0;
   }
   .instagram {
     transform: translateY(10%);
@@ -28,7 +27,7 @@ function Redes() {
       <div className="instagram">
         <InstagramLogo />
       </div>
-      <p className="redes">
+      <p className="redess">
         Será un honor que nos etiquetes en cada story de la boda.
         <br />
         @andrestntx @fera_mendez
