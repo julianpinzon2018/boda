@@ -49,7 +49,7 @@ const ProfileStyled = styled.header`
   .casar {
     margin: 0;
     font: var(--primary);
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-block-start: -4rem;
     margin-block-end: 0.5rem;
   }
@@ -61,13 +61,12 @@ const ProfileStyled = styled.header`
     font: var(--tres);
     font-size: 1.2rem;
     color: var(--oscuro);
-    font-size: 1rem;
   }
   .lugar {
     font: var(--siete);
     color: var(--casar);
     margin: 0;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   .datos {
     margin-block-start: 1rem;
