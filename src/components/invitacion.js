@@ -56,8 +56,7 @@ const ProfileStyled = styled.header`
   }
   .contenNombres {
     border-block: 3px solid var(--barra);
-    inline-size: auto;
-    margin: auto;
+    margin-inline: 10%;
   }
   .fecha {
     font: var(--tres);
