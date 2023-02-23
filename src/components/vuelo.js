@@ -104,7 +104,7 @@ function Vuelo() {
           </h3>
           <h4>
             Fecha sugerida:
-            <span className="styleDecha">16/06/2023 - 19/06/2023</span>
+            <span className="styleDecha"> 16/06/2023 - 19/06/2023</span>
           </h4>
           <h5>Aerolineas que te recomendamos:</h5>
         </div>
