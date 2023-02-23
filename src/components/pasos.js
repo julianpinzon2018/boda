@@ -16,7 +16,6 @@ const PasosStyled = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
-  padding-inline: 0.5rem;
   margin: auto;
   inline-size: 85%;
   .queremos {
@@ -30,26 +29,26 @@ const PasosStyled = styled.div`
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-block: 0.5rem;
   }
   .anillo {
     width: auto;
-    height: 4rem;
+    height: 3rem;
   }
 `;
 
 function Pasos() {
   return (
     <PasosStyled>
+      <div className="footerInvitacion">
+        <img className="anillo" src={anillos} alt="" />
+        <BadgeWelcomeToColombia />
+      </div>
       <h4 className="queremos">
         Queremos que este viaje sea increíble.
         <br />
         Preparate para escribir esta historia con nosotros
       </h4>
-      <div className="footerInvitacion">
-        <img className="anillo" src={anillos} alt="" />
-        <BadgeWelcomeToColombia />
-      </div>
+
       <Tarjeta comp={<Vuelo />} icon={<NumberOneIcon />} />
       <Tarjeta comp={<Maleta />} icon={<NumberTwoIcon />} />
       <Tarjeta comp={<Hospedaje />} icon={<NumberThreeIcon />} />
