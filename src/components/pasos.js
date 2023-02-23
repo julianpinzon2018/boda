@@ -20,7 +20,7 @@ const PasosStyled = styled.div`
   margin-block-start: 1rem;
   .queremos {
     font: var(--seis);
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     color: var(--amarillo);
     margin: 0;
     text-align: center;
@@ -47,7 +47,7 @@ function Pasos() {
       <h4 className="queremos">
         Queremos que este viaje sea increíble
         <br />
-        Preparate para vivir esta historia
+        Preparáte para vivir esta historia
       </h4>
 
       <Tarjeta comp={<Vuelo />} icon={<NumberOneIcon />} />
