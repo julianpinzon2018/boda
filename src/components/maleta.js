@@ -40,6 +40,7 @@ const MaletaStyled = styled.div`
     font: var(--seis);
     font-size: 1.2rem;
     color: var(--amarillo);
+    margin-block-start: 1.2rem;
   }
   h5 {
     font: var(--seis);
@@ -95,7 +96,7 @@ function Maleta() {
           Villavicencio es una ciudad cálida <span>(27° C)</span>, por eso es
           recomendable usar ropa fresca y cómoda
         </h5>
-        <h4>Alista tu oufit</h4>
+        <h4>Alista tu outfit</h4>
       </div>
       <div className="ropaConteiner">
         <div className="iconoPerson">
