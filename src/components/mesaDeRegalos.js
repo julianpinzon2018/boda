@@ -2,7 +2,6 @@ import styled from "styled-components";
 import GiftIcon from "./icons/gift_icon";
 
 const MesaDeRegalosStyled = styled.div`
-  margin-top: 1rem;
   * {
     margin: 0;
     color: var(--oscuro);
@@ -14,13 +13,14 @@ const MesaDeRegalosStyled = styled.div`
   }
   h2 {
     font: var(--cinco);
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-bottom: 0.2rem;
   }
   h3 {
     color: var(--casar);
     font: var(--seis);
-    line-height: 0.8rem;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
   }
 `;
 

@@ -13,7 +13,7 @@ const RedesStyled = styled.div`
 
   .redess {
     font: var(--siete);
-    font-size: 0.65rem;
+    font-size: 0.75rem;
 
     color: var(--oscuro);
   }

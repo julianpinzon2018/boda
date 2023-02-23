@@ -12,7 +12,7 @@ const ConoceVillavicencioStyled = styled.div`
   flex-direction: column;
   margin: auto;
   inline-size: 95%;
-  margin-top: 1.5rem;
+  margin-block: 1rem;
   box-sizing: border-box;
   padding-inline: 0.5rem;
 
@@ -30,12 +30,12 @@ const ConoceVillavicencioStyled = styled.div`
   }
   h2 {
     font: var(--cinco);
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: var(--oscuro);
   }
   h3 {
     font: var(--seis);
-    line-height: 0.8rem;
+    font-size: 1.2rem;
     color: var(--amarillo);
   }
   .villavoGrid {
@@ -52,13 +52,15 @@ const ConoceVillavicencioStyled = styled.div`
   }
   p {
     font: var(--seis);
-    line-height: 0.85rem;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
     overflow: hidden;
   }
   .iconoVillavo {
     display: flex;
     justify-content: center;
-    margin-top: 0.2rem;
+    margin-block-start: 0.2rem;
+    margin-inline-end: 4px;
   }
   .textMargin {
     margin-inline-end: 1rem;
@@ -67,6 +69,7 @@ const ConoceVillavicencioStyled = styled.div`
     margin-top: 1rem;
     text-align: center;
     font: var(--cinco);
+    font-size: 1.2rem;
     color: var(--amarillo);
   }
 `;

@@ -22,12 +22,9 @@ const ItinerarioStyled = styled.div`
     padding-inline: 0.5rem;
     display: flex;
     flex-direction: column;
-    gap: 0.7rem;
     padding-inline: 0.5rem;
     margin: auto;
-    margin-top: 0.8rem;
     inline-size: 85%;
-    justify-content: space-between;
   }
   .itinerario {
     inline-size: 100%;
@@ -44,21 +41,24 @@ const ItinerarioStyled = styled.div`
   }
   .containerTarijetaItinerario {
     inline-size: 100%;
-    block-size: 22.5rem;
     position: relative;
     display: flex;
+    margin-block: 0.5rem;
   }
   .containerRedes {
     border: 1px solid red;
   }
   .regalos {
     margin-inline: 10%;
-    margin-block-start: 0.9rem;
+    margin-block-start: 1rem;
   }
 
   .dario {
     margin: auto;
     margin-bottom: 0.5rem !important;
+  }
+  .redes {
+    margin-block: 1rem;
   }
 `;
 
