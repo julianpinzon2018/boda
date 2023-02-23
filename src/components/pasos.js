@@ -20,7 +20,7 @@ const PasosStyled = styled.div`
   margin-block-start: 1rem;
   .queremos {
     font: var(--seis);
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     color: var(--amarillo);
     margin: 0;
     text-align: center;
