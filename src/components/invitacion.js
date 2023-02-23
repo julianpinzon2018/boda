@@ -51,7 +51,7 @@ const ProfileStyled = styled.header`
     margin: 0;
     font: var(--primary);
     font-size: 1.3rem;
-    margin-block-start: -2.5rem;
+    margin-block-start: -4.5rem;
     margin-block-end: 0.5rem;
   }
   .contenNombres {
