@@ -6,7 +6,7 @@ const RedesStyled = styled.div`
   display: flex;
   gap: 0.5rem;
   align-items: center;
-  padding: 0.3rem 1rem;
+  padding: 0.3rem 0.5rem;
   background-color: var(--background);
   margin-top: 0.5rem;
   box-shadow: 2px 2px 5px rgba(000, 000, 000, 0.5);

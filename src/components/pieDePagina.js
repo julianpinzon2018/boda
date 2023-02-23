@@ -7,13 +7,13 @@ const PieDePaginaStyled = styled.div`
   margin: auto;
   margin-block: 0.5rem;
   .darioLogo {
-    padding-block: 0.1rem;
+    padding-block-start: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .darioFoto {
-    width: 35%;
+    width: 30%;
     height: auto;
   }
   .juntosFirma {
