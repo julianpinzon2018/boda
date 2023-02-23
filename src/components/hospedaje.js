@@ -56,10 +56,13 @@ function Hospedaje() {
     <HospedajeStyled>
       <div className="reservaLogo">
         <div>
-          <h2>RESERVA TU HOSPEDAJE</h2>
-          <h3>en Villavicencio</h3>
+          <div>
+            <h2>RESERVA TU HOSPEDAJE</h2>
+            <h3>en Villavicencio</h3>
+          </div>
           <h4>Sugerimos este hotel</h4>
         </div>
+
         <HotelBellIcon />
       </div>
       <div className="iconoGhl">
