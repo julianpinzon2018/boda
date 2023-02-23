@@ -24,7 +24,7 @@ const VueloStyled = styled.div`
   .superiorBarra {
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
+    gap: 0.6rem;
     justify-content: space-between;
     padding-bottom: 0.4rem;
     border-bottom: 2px solid var(--background);
@@ -36,14 +36,13 @@ const VueloStyled = styled.div`
   h3 {
     font: var(--seis);
     line-height: 0.8rem;
-    font-size: 0.7rem;
   }
   h4 {
-    font: var(--siete);
+    font: var(--seis);
     line-height: 0.8rem;
   }
   h5 {
-    font: var(--siete);
+    font: var(--seis);
     line-height: 0.8rem;
   }
   .fechasVuelos {

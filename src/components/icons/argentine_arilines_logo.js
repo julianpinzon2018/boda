@@ -12,8 +12,7 @@ function ArgentineArilinesLogo() {
     <ArgentineArilinesLogoStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="20.5546mm"
-        height="4.9391mm"
+        height="1.5rem"
         version="1.1"
         viewBox="0 0 5358.17 1287.52"
       >

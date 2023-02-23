@@ -11,8 +11,7 @@ function AeromexicoLogo() {
     <AeromexicoLogoStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="18.6357mm"
-        height="3.2816mm"
+        height="1.5rem"
         version="1.1"
         viewBox="0 0 3286.73 578.77"
       >

@@ -44,7 +44,7 @@ const ProfileStyled = styled.header`
     margin-bottom: 3px;
   }
   .foto {
-    block-size: 13rem;
+    block-size: 18rem;
     inline-size: auto;
   }
   .casar {
@@ -102,7 +102,7 @@ const ProfileStyled = styled.header`
   }
   .anillo {
     width: auto;
-    height: 3rem;
+    height: 4rem;
   }
 `;
 
