@@ -24,6 +24,7 @@ const PasosStyled = styled.div`
     font-size: 0.9rem;
     color: var(--amarillo);
     margin: 0;
+    text-align: center;
   }
   .footerInvitacion {
     display: flex;
@@ -41,7 +42,7 @@ function Pasos() {
   return (
     <PasosStyled>
       <h4 className="queremos">
-        Queremos que este viaje sea increible
+        Queremos que este viaje sea increíble.
         <br />
         Preparate para escribir esta historia con nosotros
       </h4>

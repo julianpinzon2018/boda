@@ -70,7 +70,7 @@ const ProfileStyled = styled.header`
     font-size: 0.7rem;
   }
   .datos {
-    margin-block: 1rem;
+    margin-block-start: 1rem;
   }
   .emocion {
     font: var(--cinco);
@@ -86,6 +86,9 @@ const ProfileStyled = styled.header`
     font-size: 1.3rem;
     margin-block-start: 0.3rem;
     margin-block-end: 0.3rem;
+  }
+  .invitacionLogo {
+    margin-block: 1.5rem;
   }
 `;
 
