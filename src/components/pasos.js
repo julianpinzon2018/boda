@@ -20,7 +20,7 @@ const PasosStyled = styled.div`
   margin-block-start: 1rem;
   .queremos {
     font: var(--seis);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: var(--amarillo);
     margin: 0;
     text-align: center;
@@ -45,9 +45,9 @@ function Pasos() {
         <BadgeWelcomeToColombia />
       </div>
       <h4 className="queremos">
-        Queremos que este viaje sea increíble
+        Este viaje será increíble
         <br />
-        Preparáte para vivir esta historia
+        Prepárate para vivir esta historia
       </h4>
 
       <Tarjeta comp={<Vuelo />} icon={<NumberOneIcon />} />
