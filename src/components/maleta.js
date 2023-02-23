@@ -87,7 +87,6 @@ function Maleta() {
               <h2>HAZ TUS MALETAS</h2>
               <h3>y hagamos esto juntos</h3>
             </div>
-            <h4>Alista tu oufit</h4>
           </div>
           <LuggageIcon />
         </div>
@@ -95,6 +94,7 @@ function Maleta() {
           Villavicencio es una ciudad cálida <span>(27° C)</span>, por eso es
           recomendable usar ropa fresca y cómoda
         </h5>
+        <h4>Alista tu oufit</h4>
       </div>
       <div className="ropaConteiner">
         <div className="iconoPerson">
