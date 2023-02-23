@@ -24,7 +24,7 @@ const VueloStyled = styled.div`
   .superiorBarra {
     display: flex;
     flex-direction: column;
-    gap: 0.6rem;
+    gap: 0.3rem;
     justify-content: space-between;
     padding-bottom: 0.4rem;
     border-bottom: 2px solid var(--background);
@@ -36,11 +36,13 @@ const VueloStyled = styled.div`
   }
   h3 {
     font: var(--seis);
-    line-height: 0.8rem;
+    line-height: 1rem;
+    font-size: 1rem;
+    margin-block-end: 0.3rem;
   }
   h4 {
     font: var(--seis);
-    line-height: 0.8rem;
+    line-height: 1rem;
   }
   h5 {
     font: var(--seis);
@@ -55,6 +57,7 @@ const VueloStyled = styled.div`
   .reservaConten {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .reserva {
     inline-size: 70%;
@@ -63,10 +66,6 @@ const VueloStyled = styled.div`
     gap: 0.5rem;
   }
   .contenAero {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -94,11 +93,14 @@ function Vuelo() {
         </div>
         <div className="fechasVuelos">
           <h3>
-            sale más economico comprarlo con tiempo que hacerlo sobre la fecha
+            Sale más economico comprarlo con tiempo que hacerlo sobre la fecha
             del viaje.
           </h3>
-          <h4>Fecha sugerida: 16/06/2023 - 19/06/2023 </h4>
-          <h5>Estas son algunas de las aerolineas que te recomendamos:</h5>
+          <h4>
+            Fecha sugerida:
+            <span className="styleDecha">16/06/2023 - 19/06/2023</span>
+          </h4>
+          <h5>Estas son algunas de las Aerolineas que te recomendamos:</h5>
         </div>
       </div>
       <div className="contenAero">
