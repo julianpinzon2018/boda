@@ -32,7 +32,7 @@ const HospedajeStyled = styled.div`
   }
   h3 {
     font: var(--seis);
-    line-height: 0.8rem;
+    font-size: 1.4rem;
     margin-bottom: 3rem;
   }
   h4 {
@@ -57,7 +57,7 @@ function Hospedaje() {
       <div className="reservaLogo">
         <div>
           <h2>RESERVA TU HOSPEDAJE</h2>
-          <h3>En Villavicencio</h3>
+          <h3>en Villavicencio</h3>
           <h4>Sugerimos este hotel</h4>
         </div>
         <HotelBellIcon />
