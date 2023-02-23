@@ -38,32 +38,34 @@ const ProfileStyled = styled.header`
 
   .nombres {
     font: var(--secondary);
+    font-size: 2.7rem;
     color: var(--casar);
     margin: 0;
     margin-bottom: 3px;
   }
   .foto {
-    block-size: 10rem;
+    block-size: 13rem;
     inline-size: auto;
   }
   .casar {
     margin: 0;
     font: var(--primary);
+    font-size: 1.3rem;
     margin-block-start: -2.5rem;
     margin-block-end: 0.5rem;
   }
   .contenNombres {
     border-block: 3px solid var(--barra);
-    inline-size: 11rem;
+    inline-size: auto;
     margin: auto;
   }
   .fecha {
     font: var(--tres);
     color: var(--oscuro);
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .lugar {
-    font: var(--nueve);
+    font: var(--siete);
     color: var(--casar);
     margin: 0;
   }
@@ -73,6 +75,7 @@ const ProfileStyled = styled.header`
   }
   .emocion {
     font: var(--cinco);
+    font-size: 1.2rem;
     color: var(--oscuro);
     font-style: italic;
     margin-top: 0.5rem;
@@ -81,12 +84,13 @@ const ProfileStyled = styled.header`
   .para {
     font: var(--cinco);
     color: var(--oscuro);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-block-start: 0.3rem;
     margin-block-end: 0.3rem;
   }
   .queremos {
     font: var(--seis);
+    font-size: 0.9rem;
     color: var(--amarillo);
     margin: 0;
   }
@@ -97,8 +101,8 @@ const ProfileStyled = styled.header`
     margin-block: 0.5rem;
   }
   .anillo {
-    width: 2.3rem;
-    height: 2.3rem;
+    width: auto;
+    height: 3rem;
   }
 `;
 

@@ -10,12 +10,7 @@ const InvitedBadgeStyled = styled.div`
 function InvitedBadge() {
   return (
     <InvitedBadgeStyled>
-      <svg
-        width="25.4194mm"
-        height="22.8029mm"
-        version="1.1"
-        viewBox="0 0 2493 2236.39"
-      >
+      <svg height="7rem" version="1.1" viewBox="0 0 2493 2236.39">
         <g id="Camada_x0020_1">
           <metadata id="CorelCorpID_0Corel-Layer" />
           <path

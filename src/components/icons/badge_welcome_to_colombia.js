@@ -12,8 +12,7 @@ function BadgeWelcomeToColombia() {
     <BadgeWelcomeToColombiaStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="2.3rem"
-        height="2.3rem"
+        height="3rem"
         version="1.1"
         viewBox="0 0 2092.2 2150.98"
       >
