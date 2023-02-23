@@ -100,7 +100,7 @@ function Vuelo() {
         <div className="fechasVuelos">
           <h3>
             Sale más economico comprarlo con tiempo que hacerlo sobre la fecha
-            del viaje.
+            del viaje
           </h3>
           <h4>
             Fecha sugerida
