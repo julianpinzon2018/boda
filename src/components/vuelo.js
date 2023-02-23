@@ -83,7 +83,7 @@ const VueloStyled = styled.div`
     gap: 4rem;
   }
   .styleDecha {
-    font: var(--tres);
+    font-size: 1rem;
   }
 `;
 
@@ -110,15 +110,6 @@ function Vuelo() {
         </div>
       </div>
       <div className="contenAero">
-        {/* <div className="aero1">
-          <AviancaLogo />
-          <AeromexicoLogo />
-          
-        </div>
-        <div className="aero2">
-          <LatamLogo />
-          <ArgentineArilinesLogo />
-        </div> */}
         <AviancaLogo />
         <AeromexicoLogo />
         <LatamLogo />
