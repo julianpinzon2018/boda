@@ -9,7 +9,7 @@ const TransporteStyled = styled.div`
   flex-direction: column;
 
   padding-block: 1rem;
-  padding-inline: 2rem;
+  padding-inline: 1.8rem;
   box-sizing: border-box;
   gap: 0.3rem;
   justify-content: space-between;
@@ -24,23 +24,23 @@ const TransporteStyled = styled.div`
   .transContainer {
     display: flex;
     justify-content: space-between;
-    gap: 0.5rem;
+    gap: 0.9rem;
   }
   h3 {
-    font: var(--siete);
-    font-size: 0.6rem;
-    margin-bottom: 0.5rem;
+    font: var(--seis);
+    line-height: 0.8rem;
+    font-size: 0.7rem;
   }
   .barra {
+    padding-bottom: 1rem;
     border-bottom: 2px solid var(--background);
     display: flex;
     flex-direction: column;
-    gap: 0.2rem;
+    gap: 0.6rem;
   }
   .carros {
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
   }
   h4 {
     font: var(--siete);
@@ -56,13 +56,7 @@ function Transporte() {
     <TransporteStyled>
       <div className="barra">
         <div className="transContainer">
-          <h2>
-            CONTACTA TU TRANSPORTE
-            <br />
-            DE BOGOTÁ A TU HOTEL
-            <br />
-            EN VILLAVICENCIO
-          </h2>
+          <h2>CONTACTA TU TRANSPORTE DE BOGOTÁ A TU HOTEL EN VILLAVICENCIO</h2>
           <TransportionSuvIcon />
         </div>
         <h3>

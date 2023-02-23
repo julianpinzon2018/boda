@@ -10,7 +10,7 @@ const HospedajeStyled = styled.div`
   justify-content: space-between;
 
   padding-block: 1rem;
-  padding-inline: 2rem;
+  padding-inline: 1.8rem;
 
   color: var(--oscuro);
   box-sizing: border-box;
@@ -24,14 +24,16 @@ const HospedajeStyled = styled.div`
     justify-content: space-between;
     border-bottom: 2px solid var(--background);
     margin-top: 0.3rem;
+    padding-bottom: 0.5rem;
   }
   h2 {
     font: var(--cinco);
   }
   h3 {
     font: var(--seis);
-    font-size: 0.8rem;
-    margin-bottom: 1rem;
+    line-height: 0.8rem;
+    font-size: 0.7rem;
+    margin-bottom: 2rem;
   }
   h4 {
     font: var(--tres);

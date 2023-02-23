@@ -10,8 +10,7 @@ const ItineTarjetaStyled = styled.div`
   display: flex;
   flex-direction: column;
   padding-block: 0.8rem;
-  padding-inline-start: 3rem;
-  padding-inline-end: 1.8rem;
+  padding-inline: 1.8rem;
   box-sizing: border-box;
 
   color: var(--oscuro);
@@ -32,6 +31,7 @@ const ItineTarjetaStyled = styled.div`
     font: var(--seis);
     font-size: 0.65rem;
     color: var(--amarillo);
+    margin-bottom: 0.2rem;
   }
   h4 {
     font: var(--cinco);
@@ -48,7 +48,7 @@ const ItineTarjetaStyled = styled.div`
   .containerItine {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 1fr 1.6fr 1fr;
   }
   .seccionItinerario {
     display: grid;
@@ -62,15 +62,22 @@ const ItineTarjetaStyled = styled.div`
   }
   .dia {
     padding-block: 0.4rem;
+    margin-block-start: 0.4rem;
     border-block: 2px solid var(--background);
   }
 
   .m {
     margin-top: 0.4rem;
   }
+
   .evento {
     text-align: center;
     margin-top: 0.2rem;
+  }
+  .horario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 `;
 
@@ -89,7 +96,7 @@ function ItineTarjeta() {
                 <WebdingScheduleIcon />
               </div>
               <div className="prevoda">
-                <div>
+                <div className="horario">
                   <h4>EVENTO PREBODA</h4>
                   <h5>Viernes 16/06/2023</h5>
                   <h6>Cena en Restaurante Campestre Ave María</h6>
@@ -102,7 +109,7 @@ function ItineTarjeta() {
                 <div className="evento">
                   <WebdingRingsIcon />
                 </div>
-                <div className="">
+                <div className="horario">
                   <h4>EL DÍA DE LA BODA</h4>
                   <h5>Sábado 17/06/2023</h5>
                   <h6>
@@ -118,7 +125,7 @@ function ItineTarjeta() {
               <div className="evento">
                 <WebdingScheduleIcon />
               </div>
-              <div className="">
+              <div className="horario">
                 <h4>EVENTO POSTBODA</h4>
                 <h5>Domingo 18/06/2023</h5>
                 <h6>Sol, cerveza y piscina</h6>

@@ -31,7 +31,7 @@ const ItinerarioStyled = styled.div`
   }
   .itinerario {
     inline-size: 100%;
-    block-size: 14.5rem;
+    block-size: 100%;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -40,12 +40,11 @@ const ItinerarioStyled = styled.div`
     block-size: 100%;
     inline-size: 100%;
     border-radius: 1.3rem;
-    margin-inline-start: 0.92rem;
     overflow: hidden;
   }
   .containerTarijetaItinerario {
     inline-size: 100%;
-    block-size: 14.5rem;
+    block-size: 16.5rem;
     position: relative;
     display: flex;
   }

@@ -8,7 +8,7 @@ const MaletaStyled = styled.div`
   block-size: 100%;
   display: flex;
   flex-direction: column;
-  padding-inline: 2rem;
+  padding-inline: 1.8rem;
   padding-block: 1rem;
   box-sizing: border-box;
   justify-content: space-between;
@@ -24,23 +24,24 @@ const MaletaStyled = styled.div`
   }
   .maletaContainer {
     border-bottom: 2px solid var(--background);
-    margin-bottom: 0.4rem;
+    padding-bottom: 0.7rem;
   }
   h2 {
     font: var(--cinco);
   }
   h3 {
-    font: var(--siete);
-    font-size: 0.8rem;
+    font: var(--seis);
+    line-height: 0.8rem;
+    font-size: 0.7rem;
   }
   h4 {
     font: var(--seis);
-    font-size: 0.9rem;
     color: var(--amarillo);
   }
   h5 {
-    font: var(--siete);
-    margin-bottom: 0.4rem;
+    font: var(--seis);
+    line-height: 0.8rem;
+    font-size: 0.7rem;
   }
   .ropaConteiner {
     display: grid;
@@ -66,7 +67,7 @@ const MaletaStyled = styled.div`
   .maletaContainerTitle {
     display: flex;
     flex-direction: column;
-    gap: 0.7rem;
+    gap: 1.2rem;
   }
 `;
 

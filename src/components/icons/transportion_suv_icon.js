@@ -12,7 +12,7 @@ function TransportionSuvIcon() {
     <TransportionSuvIconStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        height="2.7rem"
+        height="2.5rem"
         version="1.1"
         viewBox="0 0 616.25 389.58"
       >

@@ -11,7 +11,7 @@ const VueloStyled = styled.div`
 
   display: flex;
   flex-direction: column;
-  padding-inline: 2rem;
+  padding-inline: 1.8rem;
   padding-block: 1rem;
   box-sizing: border-box;
   justify-content: space-between;
@@ -26,15 +26,17 @@ const VueloStyled = styled.div`
     flex-direction: column;
     gap: 0.3rem;
     justify-content: space-between;
-    /* border-bottom: 2px solid var(--background); */
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--background);
   }
 
   h2 {
     font: var(--cinco);
   }
   h3 {
-    font: var(--siete);
+    font: var(--seis);
     line-height: 0.8rem;
+    font-size: 0.7rem;
   }
   h4 {
     font: var(--siete);
@@ -62,10 +64,14 @@ const VueloStyled = styled.div`
     gap: 0.5rem;
   }
   .contenAero {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    gap: 0.2rem;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
   }
   .aero1 {
     display: flex;
@@ -96,16 +102,20 @@ function Vuelo() {
           <h5>Estas son algunas de las aerolineas que te recomendamos:</h5>
         </div>
       </div>
-      <hr />
       <div className="contenAero">
-        <div className="aero1">
+        {/* <div className="aero1">
           <AviancaLogo />
           <AeromexicoLogo />
+          
         </div>
         <div className="aero2">
           <LatamLogo />
           <ArgentineArilinesLogo />
-        </div>
+        </div> */}
+        <AviancaLogo />
+        <AeromexicoLogo />
+        <LatamLogo />
+        <ArgentineArilinesLogo />
       </div>
     </VueloStyled>
   );
