@@ -8,13 +8,13 @@ import VillavoWeatherIcon from "./icons/villavo_weather_icon";
 import WebdingGastronomyIcon from "./icons/webding_gastronomy_icon";
 
 const ConoceVillavicencioStyled = styled.div`
-  padding-inline: 0.5rem;
   display: flex;
   flex-direction: column;
   margin: auto;
-  inline-size: 85%;
+  inline-size: 95%;
   margin-top: 1.5rem;
   box-sizing: border-box;
+  padding-inline: 0.5rem;
 
   * {
     margin: 0;
@@ -42,7 +42,7 @@ const ConoceVillavicencioStyled = styled.div`
     margin-top: 1rem;
 
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr 4fr;
+    grid-template-columns: auto 1fr auto 1fr;
     grid-template-rows: auto auto auto;
 
     column-gap: 0.5rem;
@@ -53,6 +53,7 @@ const ConoceVillavicencioStyled = styled.div`
   p {
     font: var(--seis);
     line-height: 0.85rem;
+    overflow: hidden;
   }
   .iconoVillavo {
     display: flex;
