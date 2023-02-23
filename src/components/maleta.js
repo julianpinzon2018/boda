@@ -24,7 +24,6 @@ const MaletaStyled = styled.div`
   }
   .maletaContainer {
     border-bottom: 2px solid var(--background);
-    padding-bottom: 0.7rem;
   }
   h2 {
     font: var(--cinco);
@@ -38,7 +37,6 @@ const MaletaStyled = styled.div`
     font: var(--seis);
     font-size: 1.2rem;
     color: var(--amarillo);
-    padding-bottom: 0.6rem;
   }
   h5 {
     font: var(--seis);
