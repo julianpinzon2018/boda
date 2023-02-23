@@ -26,7 +26,6 @@ const VueloStyled = styled.div`
     flex-direction: column;
     gap: 0.3rem;
     justify-content: space-between;
-    padding-bottom: 0.4rem;
     border-bottom: 2px solid var(--background);
   }
 
