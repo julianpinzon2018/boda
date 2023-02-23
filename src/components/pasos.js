@@ -45,7 +45,7 @@ function Pasos() {
         <BadgeWelcomeToColombia />
       </div>
       <h4 className="queremos">
-        Queremos que este viaje sea increíble.
+        Queremos que este viaje sea increíble
         <br />
         Preparate para vivir esta historia
       </h4>
