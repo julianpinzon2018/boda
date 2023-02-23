@@ -1,9 +1,8 @@
 import styled from "styled-components";
 import image from "./images/header_images.png";
 import imageFoto from "./images/Maoylu_colorful_header_image.png";
-import anillos from "./images/wedding_rings_circle.png";
+
 import InvitedBadge from "./icons/invited_badge";
-import BadgeWelcomeToColombia from "./icons/badge_welcome_to_colombia";
 
 const ProfileStyled = styled.header`
   position: relative;
@@ -27,7 +26,7 @@ const ProfileStyled = styled.header`
     padding-top: 0.5rem;
     overflow: hidden;
     box-sizing: border-box;
-    margin-top: 0.6rem;
+    margin-block-start: 1rem;
   }
   .invitacion * {
     text-align: center;
@@ -38,7 +37,7 @@ const ProfileStyled = styled.header`
 
   .nombres {
     font: var(--secondary);
-    font-size: 2.7rem;
+    font-size: 3rem;
     color: var(--casar);
     margin: 0;
     margin-bottom: 3px;
@@ -51,15 +50,16 @@ const ProfileStyled = styled.header`
     margin: 0;
     font: var(--primary);
     font-size: 1.3rem;
-    margin-block-start: -4.5rem;
+    margin-block-start: -4rem;
     margin-block-end: 0.5rem;
   }
   .contenNombres {
     border-block: 3px solid var(--barra);
-    margin-inline: 10%;
+    margin-inline: 5%;
   }
   .fecha {
     font: var(--tres);
+    font-size: 1.2rem;
     color: var(--oscuro);
     font-size: 1rem;
   }
@@ -67,10 +67,10 @@ const ProfileStyled = styled.header`
     font: var(--siete);
     color: var(--casar);
     margin: 0;
+    font-size: 0.7rem;
   }
   .datos {
-    margin-block-start: 0.7rem;
-    margin-block-end: 0.1rem;
+    margin-block: 1rem;
   }
   .emocion {
     font: var(--cinco);
@@ -86,22 +86,6 @@ const ProfileStyled = styled.header`
     font-size: 1.3rem;
     margin-block-start: 0.3rem;
     margin-block-end: 0.3rem;
-  }
-  .queremos {
-    font: var(--seis);
-    font-size: 0.9rem;
-    color: var(--amarillo);
-    margin: 0;
-  }
-  .footerInvitacion {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-block: 0.5rem;
-  }
-  .anillo {
-    width: auto;
-    height: 4rem;
   }
 `;
 
@@ -129,15 +113,6 @@ function Invitacion() {
           </h2>
           <InvitedBadge />
           <h3 className="para">PARA ASISTIR A LA BODA</h3>
-          <h4 className="queremos">
-            Queremos que este viaje sea increible
-            <br />
-            Preparate para escribir esta historia con nosotros
-          </h4>
-          <div className="footerInvitacion">
-            <img className="anillo" src={anillos} alt="" />
-            <BadgeWelcomeToColombia />
-          </div>
         </div>
       </div>
     </ProfileStyled>

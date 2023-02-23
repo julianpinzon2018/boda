@@ -8,6 +8,9 @@ import Vuelo from "./vuelo";
 import Hospedaje from "./hospedaje";
 import Transporte from "./transporte";
 import Maleta from "./maleta";
+import BadgeWelcomeToColombia from "./icons/badge_welcome_to_colombia";
+
+import anillos from "./images/wedding_rings_circle.png";
 
 const PasosStyled = styled.div`
   display: flex;
@@ -16,11 +19,36 @@ const PasosStyled = styled.div`
   padding-inline: 0.5rem;
   margin: auto;
   inline-size: 85%;
+  .queremos {
+    font: var(--seis);
+    font-size: 0.9rem;
+    color: var(--amarillo);
+    margin: 0;
+  }
+  .footerInvitacion {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-block: 0.5rem;
+  }
+  .anillo {
+    width: auto;
+    height: 4rem;
+  }
 `;
 
 function Pasos() {
   return (
     <PasosStyled>
+      <h4 className="queremos">
+        Queremos que este viaje sea increible
+        <br />
+        Preparate para escribir esta historia con nosotros
+      </h4>
+      <div className="footerInvitacion">
+        <img className="anillo" src={anillos} alt="" />
+        <BadgeWelcomeToColombia />
+      </div>
       <Tarjeta comp={<Vuelo />} icon={<NumberOneIcon />} />
       <Tarjeta comp={<Maleta />} icon={<NumberTwoIcon />} />
       <Tarjeta comp={<Hospedaje />} icon={<NumberThreeIcon />} />
