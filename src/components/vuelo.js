@@ -33,6 +33,7 @@ const VueloStyled = styled.div`
   h2 {
     font: var(--cinco);
     font-size: 1.4rem;
+    line-height: 1rem;
   }
   h3 {
     font: var(--seis);
@@ -42,11 +43,14 @@ const VueloStyled = styled.div`
   }
   h4 {
     font: var(--seis);
+    font-size: 0.9rem;
     line-height: 1rem;
   }
   h5 {
     font: var(--seis);
-    line-height: 0.8rem;
+    margin-block-start: 1.2rem;
+    font-style: italic;
+    font-size: 0.9rem;
   }
   .fechasVuelos {
     padding-block: 0.3rem;
@@ -79,6 +83,9 @@ const VueloStyled = styled.div`
     display: flex;
     gap: 4rem;
   }
+  .styleDecha {
+    font: var(--tres);
+  }
 `;
 
 function Vuelo() {
@@ -100,7 +107,7 @@ function Vuelo() {
             Fecha sugerida:
             <span className="styleDecha">16/06/2023 - 19/06/2023</span>
           </h4>
-          <h5>Estas son algunas de las Aerolineas que te recomendamos:</h5>
+          <h5>Aerolineas que te recomendamos:</h5>
         </div>
       </div>
       <div className="contenAero">
