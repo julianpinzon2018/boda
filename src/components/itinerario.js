@@ -61,6 +61,7 @@ const ItinerarioStyled = styled.div`
   }
   .dario {
     margin: auto;
+    margin-bottom: 0.5rem;
   }
 `;
 
