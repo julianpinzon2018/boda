@@ -26,6 +26,7 @@ const MaletaStyled = styled.div`
   }
   .maletaContainer {
     border-bottom: 2px solid var(--background);
+    margin-block-end: 0.5rem;
   }
   h2 {
     font: var(--cinco);
