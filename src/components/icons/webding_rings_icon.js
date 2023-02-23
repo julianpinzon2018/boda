@@ -12,8 +12,8 @@ function WebdingRingsIcon() {
     <WebdingRingsIconStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="6.5052mm"
-        height="4.4291mm"
+        height="1.6rem"
+        width="2.3rem"
         version="1.1"
         viewBox="0 0 83.71 57"
       >

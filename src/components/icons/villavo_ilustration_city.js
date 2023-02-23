@@ -11,8 +11,7 @@ function VillavoIlustrationCity() {
     <VillavoIlustrationCityStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="43.5947mm"
-        height="14.6975mm"
+        height="6rem"
         version="1.1"
         viewBox="0 0 4251.14 1433.23"
       >

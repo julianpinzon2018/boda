@@ -12,14 +12,25 @@ const PieDePaginaStyled = styled.div`
     align-items: center;
     justify-content: center;
   }
+  .darioFoto {
+    width: 35%;
+    height: auto;
+  }
+  .juntosFirma {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 `;
 
 function PieDePagina() {
   return (
     <PieDePaginaStyled>
-      <TextLetsDoTogetherVector />
+      <div className="juntosFirma">
+        <TextLetsDoTogetherVector />
+      </div>
       <div className="darioLogo">
-        <img src={DesignedByDario} alt="" />
+        <img className="darioFoto" src={DesignedByDario} alt="" />
       </div>
     </PieDePaginaStyled>
   );

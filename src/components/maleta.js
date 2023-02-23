@@ -28,20 +28,23 @@ const MaletaStyled = styled.div`
   }
   h2 {
     font: var(--cinco);
+    font-size: 1.3rem;
   }
   h3 {
     font: var(--seis);
     line-height: 0.8rem;
-    font-size: 0.7rem;
   }
   h4 {
     font: var(--seis);
+    font-size: 1rem;
+    line-height: 0.8rem;
     color: var(--amarillo);
+    padding-bottom: 0.6rem;
   }
   h5 {
     font: var(--seis);
     line-height: 0.8rem;
-    font-size: 0.7rem;
+    padding-bottom: 0.6rem;
   }
   .ropaConteiner {
     display: grid;
@@ -55,10 +58,12 @@ const MaletaStyled = styled.div`
   }
   .ropa {
     font: var(--tres);
-    font-size: 0.7rem;
+    font-size: 0.75rem;
   }
   .person {
     font: var(--seis);
+    font-size: 1rem;
+    line-height: 0.8rem;
   }
   .containerPerson {
     display: flex;

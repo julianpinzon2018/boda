@@ -12,7 +12,7 @@ const ConoceVillavicencioStyled = styled.div`
   display: flex;
   flex-direction: column;
   margin: auto;
-  inline-size: 80%;
+  inline-size: 85%;
   margin-top: 1.5rem;
   box-sizing: border-box;
 
@@ -28,14 +28,15 @@ const ConoceVillavicencioStyled = styled.div`
   .titleVillavo {
     text-align: center;
   }
-  h1 {
+  h2 {
     font: var(--cinco);
+    font-size: 1.3rem;
     color: var(--oscuro);
   }
-  h2 {
+  h3 {
     font: var(--seis);
+    line-height: 0.8rem;
     color: var(--amarillo);
-    font-size: 0.6rem;
   }
   .villavoGrid {
     margin-top: 1rem;
@@ -47,9 +48,11 @@ const ConoceVillavicencioStyled = styled.div`
     column-gap: 0.5rem;
     row-gap: 2rem;
 
-    font: var(--siete);
-    font-size: 0.6rem;
     color: var(--oscuro);
+  }
+  p {
+    font: var(--sies);
+    line-height: 0.85rem;
   }
   .iconoVillavo {
     display: flex;
@@ -59,11 +62,10 @@ const ConoceVillavicencioStyled = styled.div`
   .textMargin {
     margin-inline-end: 1rem;
   }
-  h3 {
+  h4 {
     margin-top: 1rem;
     text-align: center;
     font: var(--cinco);
-    font-size: 0.9rem;
     color: var(--amarillo);
   }
 `;
@@ -73,8 +75,8 @@ function ConoceVillavicencio() {
     <ConoceVillavicencioStyled>
       <div className="logoVillavo">
         <div className="titleVillavo">
-          <h1>CONOCE ALGO DE VILLAVICENCIO</h1>
-          <h2>De antemano sabemos que te va a encantar</h2>
+          <h2>CONOCE ALGO DE VILLAVICENCIO</h2>
+          <h3>De antemano sabemos que te va a encantar</h3>
         </div>
         <VillavoIlustrationCity />
       </div>
@@ -122,7 +124,7 @@ function ConoceVillavicencio() {
         </p>
       </div>
 
-      <h3>LA RUMBA DE VILLAVICENCIO ES BUENISIMA...</h3>
+      <h4>LA RUMBA DE VILLAVICENCIO ES BUENISIMA...</h4>
     </ConoceVillavicencioStyled>
   );
 }

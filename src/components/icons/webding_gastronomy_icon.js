@@ -12,8 +12,7 @@ function WebdingGastronomyIcon() {
     <WebdingGastronomyIconStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="7.7244mm"
-        height="5.7592mm"
+        height="1.7rem"
         version="1.1"
         viewBox="0 0 90.5 67.48"
       >

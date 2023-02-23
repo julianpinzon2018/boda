@@ -20,6 +20,7 @@ const TransporteStyled = styled.div`
   }
   h2 {
     font: var(--cinco);
+    font-size: 1.3rem;
   }
   .transContainer {
     display: flex;
@@ -28,8 +29,7 @@ const TransporteStyled = styled.div`
   }
   h3 {
     font: var(--seis);
-    line-height: 0.8rem;
-    font-size: 0.7rem;
+    line-height: 0.9rem;
   }
   .barra {
     padding-bottom: 1rem;
@@ -43,11 +43,13 @@ const TransporteStyled = styled.div`
     justify-content: space-between;
   }
   h4 {
-    font: var(--siete);
+    font: var(--cuatro);
+    font-size: 0.7rem;
+    line-height: 0.8rem;
     text-decoration-line: underline;
   }
   h5 {
-    font: var(--nueve);
+    font: var(--siete);
   }
 `;
 

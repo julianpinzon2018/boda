@@ -28,21 +28,21 @@ const HospedajeStyled = styled.div`
   }
   h2 {
     font: var(--cinco);
+    font-size: 1.3rem;
   }
   h3 {
     font: var(--seis);
     line-height: 0.8rem;
-    font-size: 0.7rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
   h4 {
     font: var(--tres);
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin-bottom: 0.3rem;
   }
   h5 {
     font: var(--tres);
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   .iconoGhl {
     display: flex;

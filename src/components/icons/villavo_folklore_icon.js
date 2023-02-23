@@ -12,8 +12,7 @@ function VillavoFolkloreIcon() {
     <VillavoFolkloreIconStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="8.7788mm"
-        height="4.7997mm"
+        height="1.5rem"
         version="1.1"
         viewBox="0 0 1080.55 590.78"
       >

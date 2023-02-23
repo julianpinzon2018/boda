@@ -12,8 +12,7 @@ function VillavoLandscapeIcon() {
     <VillavoLandscapeIconStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="7.1369mm"
-        height="6.4148mm"
+        height="2rem"
         version="1.1"
         viewBox="0 0 644.1 578.93"
       >

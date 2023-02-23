@@ -12,8 +12,7 @@ function VillavoWeatherIcon() {
     <VillavoWeatherIconStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="6.8516mm"
-        height="6.9067mm"
+        height="2.1rem"
         version="1.1"
         viewBox="0 0 572.94 577.55"
       >

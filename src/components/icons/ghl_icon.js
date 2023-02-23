@@ -11,7 +11,7 @@ function GhlIcon() {
     <GhlIconStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        height="3.2rem"
+        height="4rem"
         version="1.1"
         viewBox="0 0 357.55 342.03"
       >

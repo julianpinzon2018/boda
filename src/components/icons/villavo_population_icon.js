@@ -12,8 +12,7 @@ function VillavoPopulationIcon() {
     <VillavoPopulationIconStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="6.9322mm"
-        height="6.5698mm"
+        height="2rem"
         version="1.1"
         viewBox="0 0 73.78 69.92"
       >

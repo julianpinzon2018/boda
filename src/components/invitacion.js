@@ -82,8 +82,8 @@ const ProfileStyled = styled.header`
     margin-bottom: 0.6rem;
   }
   .para {
-    font: var(--cinco);
     color: var(--oscuro);
+    font: var(--cinco);
     font-size: 1.3rem;
     margin-block-start: 0.3rem;
     margin-block-end: 0.3rem;

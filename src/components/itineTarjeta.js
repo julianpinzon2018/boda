@@ -22,33 +22,37 @@ const ItineTarjetaStyled = styled.div`
     flex-direction: column;
     gap: 0.5rem;
     padding-bottom: 5px;
+    justify-content: space-between;
   }
 
   h2 {
     font: var(--cinco);
+    font-size: 1.2rem;
   }
   h3 {
     font: var(--seis);
-    font-size: 0.65rem;
+    line-height: 0.8rem;
     color: var(--amarillo);
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.4rem;
   }
   h4 {
     font: var(--cinco);
-    font-size: 0.7rem;
   }
   h5 {
-    font: var(--siete);
+    font: var(--ocho);
+    line-height: 0.8rem;
+    font-size: 0.7rem;
     color: var(--amarillo);
     margin-block: 1px;
   }
   h6 {
-    font: var(--siete);
+    font: var(--seis);
+    line-height: 0.9rem;
   }
   .containerItine {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1.6fr 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .seccionItinerario {
     display: grid;
@@ -61,8 +65,9 @@ const ItineTarjetaStyled = styled.div`
     gap: 0.5rem;
   }
   .dia {
-    padding-block: 0.4rem;
-    margin-block-start: 0.4rem;
+    padding-block: 0.7rem;
+    margin-block-start: 0.7rem;
+    margin-block-end: 0.3rem;
     border-block: 2px solid var(--background);
   }
 

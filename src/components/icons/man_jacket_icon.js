@@ -12,7 +12,7 @@ function ManJacketIcon() {
     <ManJacketIconStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        height="1.8rem"
+        height="2.3rem"
         version="1.1"
         viewBox="0 0 44.01 50.18"
       >
