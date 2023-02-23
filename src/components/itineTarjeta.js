@@ -22,6 +22,7 @@ const ItineTarjetaStyled = styled.div`
     flex-direction: column;
     gap: 0.5rem;
     padding-bottom: 5px;
+    block-size: 100%;
     justify-content: space-between;
   }
 
@@ -51,6 +52,7 @@ const ItineTarjetaStyled = styled.div`
   }
   .containerItine {
     display: flex;
+    block-size: 100%;
     flex-direction: column;
     justify-content: space-between;
   }

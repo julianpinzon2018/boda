@@ -51,7 +51,7 @@ const ConoceVillavicencioStyled = styled.div`
     color: var(--oscuro);
   }
   p {
-    font: var(--sies);
+    font: var(--seis);
     line-height: 0.85rem;
   }
   .iconoVillavo {

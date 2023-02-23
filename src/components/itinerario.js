@@ -44,7 +44,7 @@ const ItinerarioStyled = styled.div`
   }
   .containerTarijetaItinerario {
     inline-size: 100%;
-    block-size: 20.5rem;
+    block-size: 22.5rem;
     position: relative;
     display: flex;
   }

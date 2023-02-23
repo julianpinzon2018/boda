@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const TarjetaStyled = styled.div`
   inline-size: 100%;
-  block-size: 17.5rem;
+  block-size: 18.5rem;
   position: relative;
   display: flex;
 
