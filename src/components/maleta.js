@@ -36,14 +36,15 @@ const MaletaStyled = styled.div`
   }
   h4 {
     font: var(--seis);
-    font-size: 1rem;
-    line-height: 0.8rem;
+    font-size: 1.2rem;
     color: var(--amarillo);
     padding-bottom: 0.6rem;
   }
   h5 {
     font: var(--seis);
-    line-height: 0.8rem;
+    font-size: 1.1rem;
+
+    line-height: 1.2rem;
     padding-bottom: 0.6rem;
   }
   .ropaConteiner {
