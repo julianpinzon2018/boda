@@ -41,6 +41,7 @@ const MaletaStyled = styled.div`
     font-size: 1.2rem;
     color: var(--amarillo);
     margin-block-start: 1.2rem;
+    margin-block-end: 0.3rem;
   }
   h5 {
     font: var(--seis);
