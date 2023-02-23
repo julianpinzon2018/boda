@@ -14,7 +14,7 @@ const ConoceVillavicencioStyled = styled.div`
   inline-size: 95%;
   margin-top: 1.5rem;
   box-sizing: border-box;
-  padding-inline: 1rem;
+  padding-inline: 0.5rem;
 
   * {
     margin: 0;
