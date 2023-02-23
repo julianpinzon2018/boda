@@ -11,7 +11,7 @@ function LatamLogo() {
     <LatamLogoStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        height="1.5rem"
+        height="1.4rem"
         version="1.1"
         viewBox="0 0 535.71 125"
       >
