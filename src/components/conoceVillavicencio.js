@@ -69,7 +69,7 @@ const ConoceVillavicencioStyled = styled.div`
     margin-top: 1rem;
     text-align: center;
     font: var(--cinco);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: var(--amarillo);
   }
 `;
