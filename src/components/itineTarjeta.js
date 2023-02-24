@@ -108,7 +108,7 @@ function ItineTarjeta() {
           <h2>
             LO QUE VAMOS A HACER
             <br />
-            <span className="subItenerario">en villavicencio</span>
+            <span className="subItenerario">en Villavicencio</span>
           </h2>
           <h3>Este es el itinerario que preparamos para ti:</h3>
         </div>
