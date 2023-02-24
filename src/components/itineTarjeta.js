@@ -141,7 +141,7 @@ function ItineTarjeta() {
                   </h5>
                   <h6>
                     Hacienda El Campanario en el municipio de Restrepo, a 13 km
-                    de Villavicencio. Salida desde el hotel ghl en Chiva Rumbera
+                    de Villavicencio. Salida desde el hotel en Chiva Rumbera
                   </h6>
                 </div>
               </div>
