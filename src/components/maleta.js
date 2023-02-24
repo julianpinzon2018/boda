@@ -61,7 +61,7 @@ const MaletaStyled = styled.div`
     text-align: center;
   }
   .ropa {
-    font: var(--tres);
+    font: var(--seis);
     font-size: 1rem;
   }
   .person {
