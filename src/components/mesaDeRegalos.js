@@ -10,6 +10,8 @@ const MesaDeRegalosStyled = styled.div`
     display: flex;
     margin: auto;
     gap: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
   }
   h2 {
     font: var(--cinco);
@@ -28,16 +30,15 @@ function MesaDeRegalos() {
   return (
     <MesaDeRegalosStyled>
       <div className="containerRegalos">
-        <div>
-          <h2>MESA DE REGALOS</h2>
-          <h3>
-            No queremos complicarte buscando o cargando regalos, por eso
-            habilitaremos una mesa para lluvia de sobres o transferencia
-            bancaria destinada a la luna de miel.
-          </h3>
-        </div>
+        <h2>MESA DE REGALOS</h2>
+
         <GiftIcon />
       </div>
+      <h3>
+        No queremos complicarte buscando o cargando regalos, por eso
+        habilitaremos una mesa para lluvia de sobres o transferencia bancaria
+        destinada a la luna de miel.
+      </h3>
     </MesaDeRegalosStyled>
   );
 }

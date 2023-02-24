@@ -50,7 +50,7 @@ const ItinerarioStyled = styled.div`
   }
   .regalos {
     margin-inline: 10%;
-    margin-block-start: 1rem;
+    margin-block: 2.5rem;
   }
 
   .dario {

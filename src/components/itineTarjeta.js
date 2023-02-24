@@ -142,7 +142,6 @@ function ItineTarjeta() {
                   <h6>
                     Hacienda típica en el municipio de Restrepo, a 13 km de
                     Villavicencio. Salida desde el hotel ghl en Chiva Rumbera
-                    (bus escalera)
                   </h6>
                 </div>
               </div>
