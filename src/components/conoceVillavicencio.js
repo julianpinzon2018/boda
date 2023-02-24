@@ -30,12 +30,12 @@ const ConoceVillavicencioStyled = styled.div`
   }
   h2 {
     font: var(--cinco);
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: var(--oscuro);
   }
   h3 {
     font: var(--seis);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: var(--amarillo);
   }
   .villavoGrid {
@@ -80,7 +80,7 @@ function ConoceVillavicencio() {
       <div className="logoVillavo">
         <div className="titleVillavo">
           <h2>CONOCE ALGO DE VILLAVICENCIO</h2>
-          <h3>De antemano sabemos que te va a encantar</h3>
+          <h3>Sabemos que te va a encantar</h3>
         </div>
         <VillavoIlustrationCity />
       </div>
