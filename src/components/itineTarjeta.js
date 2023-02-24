@@ -26,7 +26,7 @@ const ItineTarjetaStyled = styled.div`
 
   h2 {
     font: var(--cinco);
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 1.2rem;
   }
   .subItenerario {
