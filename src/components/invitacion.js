@@ -109,9 +109,8 @@ function Invitacion() {
         </div>
         <div className="invitacionLogo">
           <h2 className="emocion">
-            NOS EMOCIONA COMPARTIR EL DIA MAS IMPORTANTE
-            <br />
-            DE NUESTRA HISTORIA CONTIGO, POR ESO ERES
+            NOS EMOCIONA COMPARTIR EL DÍA MÁS IMPORTANTE DE NUESTRA HISTORIA
+            CONTIGO
           </h2>
           <InvitedBadge />
           <h3 className="para">PARA ASISTIR A LA BODA</h3>

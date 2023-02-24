@@ -19,8 +19,8 @@ function NumberThreeIcon() {
     <NumberThreeIconStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="2rem"
-        height="2rem"
+        width="2.5rem"
+        height="2.5rem"
         version="1.1"
         viewBox="0 0 65.17 65.17"
       >
