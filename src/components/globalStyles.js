@@ -27,6 +27,7 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
 }
+
 `;
 
 export default GlobalStylesStyled;
