@@ -15,7 +15,7 @@ const MesaDeRegalosStyled = styled.div`
   }
   h2 {
     font: var(--cinco);
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin-bottom: 0.2rem;
   }
   h3 {
