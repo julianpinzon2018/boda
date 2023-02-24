@@ -15,7 +15,7 @@ const MesaDeRegalosStyled = styled.div`
   }
   h2 {
     font: var(--cinco);
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-bottom: 0.2rem;
   }
   h3 {
@@ -31,7 +31,6 @@ function MesaDeRegalos() {
     <MesaDeRegalosStyled>
       <div className="containerRegalos">
         <h2>MESA DE REGALOS</h2>
-
         <GiftIcon />
       </div>
       <h3>

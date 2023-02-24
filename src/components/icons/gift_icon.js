@@ -12,7 +12,7 @@ function GiftIcon() {
     <GiftIconStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        height="4rem"
+        height="3.5rem"
         version="1.1"
         viewBox="0 0 80.79 105.15"
       >
