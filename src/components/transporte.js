@@ -20,13 +20,14 @@ const TransporteStyled = styled.div`
   }
   h2 {
     font: var(--cinco);
-    line-height: 1.2rem;
+    line-height: 1.3rem;
     font-size: 1.4rem;
   }
   .transContainer {
     display: flex;
     justify-content: space-between;
     gap: 0.9rem;
+    align-items: center;
   }
   h3 {
     margin-block-start: 1.2rem;
@@ -75,7 +76,7 @@ function Transporte() {
           <h2>
             CONTACTA TU TRANSPORTE
             <br />
-            <span className="subTitle">de bogota a villavicencio</span>
+            <span className="subTitle">de Bogotá a Villavicencio</span>
           </h2>
           <TransportionSuvIcon />
         </div>
