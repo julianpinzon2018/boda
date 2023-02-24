@@ -42,11 +42,12 @@ const ConoceVillavicencioStyled = styled.div`
     margin-top: 1.5rem;
 
     display: grid;
-    grid-template-columns: auto 1fr auto 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: auto 1fr;
+    /* grid-template-rows: auto auto auto; */
+    align-items: center;
 
     column-gap: 0.1rem;
-    row-gap: 2rem;
+    row-gap: 1.5rem;
 
     color: var(--oscuro);
   }
@@ -59,7 +60,6 @@ const ConoceVillavicencioStyled = styled.div`
   .iconoVillavo {
     display: flex;
     justify-content: center;
-    margin-block-start: 0.2rem;
     margin-inline-end: 4px;
   }
   .textMargin {
