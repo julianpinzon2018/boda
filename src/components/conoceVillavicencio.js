@@ -12,7 +12,7 @@ const ConoceVillavicencioStyled = styled.div`
   flex-direction: column;
   margin: auto;
   inline-size: 95%;
-  margin-block: 1rem;
+  margin-block: 2rem;
   box-sizing: border-box;
   padding-inline: 0.5rem;
 
@@ -30,7 +30,7 @@ const ConoceVillavicencioStyled = styled.div`
   }
   h2 {
     font: var(--cinco);
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: var(--oscuro);
   }
   h3 {
