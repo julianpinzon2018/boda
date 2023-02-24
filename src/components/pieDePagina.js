@@ -1,31 +1,14 @@
 import styled from "styled-components";
 import TextLetsDoTogetherVector from "./icons/text_lets_do_together_vector";
 import DesignedByDario from "./icons/designed_by_dario.png";
+import Redes from "./redes";
 
-const PieDePaginaStyled = styled.div`
-  inline-size: 100;
-  margin: auto;
-  margin-block: 0.5rem;
-  .darioLogo {
-    padding-block-start: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .darioFoto {
-    width: 30%;
-    height: auto;
-  }
-  .juntosFirma {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-`;
+const PieDePaginaStyled = styled.div``;
 
 function PieDePagina() {
   return (
-    <PieDePaginaStyled>
+    <PieDePaginaStyled className="containerComponent" id="pieDePagina">
+      <Redes />
       <div className="juntosFirma">
         <TextLetsDoTogetherVector />
       </div>

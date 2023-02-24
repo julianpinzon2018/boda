@@ -1,36 +1,11 @@
 import styled from "styled-components";
 import GiftIcon from "./icons/gift_icon";
 
-const MesaDeRegalosStyled = styled.div`
-  * {
-    margin: 0;
-    color: var(--oscuro);
-  }
-  .containerRegalos {
-    display: flex;
-    margin: auto;
-    gap: 1.5rem;
-    justify-content: space-between;
-    align-items: center;
-  }
-  h2 {
-    font: var(--cinco);
-    font-size: 1.8rem;
-    margin-bottom: 0.2rem;
-  }
-  h3 {
-    color: var(--casar);
-    font: var(--seis);
-    font-size: 1.2rem;
-    line-height: 1.2rem;
-    margin-block-start: 0.5rem;
-    line-height: 1.4rem;
-  }
-`;
+const MesaDeRegalosStyled = styled.div``;
 
 function MesaDeRegalos() {
   return (
-    <MesaDeRegalosStyled>
+    <MesaDeRegalosStyled className="containerComponent" id="regalos">
       <div className="containerRegalos">
         <h2>MESA DE REGALOS</h2>
         <GiftIcon />

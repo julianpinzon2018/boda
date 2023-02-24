@@ -2,103 +2,33 @@ import styled from "styled-components";
 import LuggageIcon from "./icons/luggage_icon";
 import WomanDressIcon from "./icons/woman_dress_icon";
 import ManJacketIcon from "./icons/man_jacket_icon";
+import NumberTwoIcon from "./icons/number_two_icon";
 
-const MaletaStyled = styled.div`
-  background-color: var(--box2);
-  block-size: 100%;
-  display: flex;
-  flex-direction: column;
-  padding-inline: 1.5rem;
-  padding-block: 1rem;
-  box-sizing: border-box;
-  justify-content: space-between;
-
-  * {
-    margin: 0;
-    color: var(--oscuro);
-  }
-  .maletaContainerLogo {
-    display: flex;
-    gap: 1rem;
-    justify-content: space-between;
-    align-items: center;
-    margin-block-end: 0.5rem;
-  }
-  .maletaContainer {
-    border-bottom: 2px solid var(--background);
-    margin-block-end: 0.5rem;
-  }
-  h2 {
-    font: var(--cinco);
-    font-size: 1.4rem;
-    line-height: 1.2rem;
-  }
-  h3 {
-    font: var(--seis);
-    font-size: 1.3rem;
-  }
-  h4 {
-    font: var(--seis);
-    font-size: 1.2rem;
-    color: var(--amarillo);
-    margin-block-start: 1.2rem;
-    margin-block-end: 0.3rem;
-  }
-  h5 {
-    font: var(--seis);
-    font-size: 1.1rem;
-
-    line-height: 1.2rem;
-    padding-bottom: 0.6rem;
-  }
-  .ropaConteiner {
-    display: grid;
-    grid-template-columns: 1fr 7fr;
-    grid-template-rows: auto auto;
-    column-gap: 1rem;
-    row-gap: 0.3rem;
-  }
-  .iconoPerson {
-    text-align: center;
-  }
-  .ropa {
-    font: var(--seis);
-    font-size: 1rem;
-  }
-  .person {
-    font: var(--seis);
-    font-size: 1rem;
-    line-height: 0.8rem;
-  }
-  .containerPerson {
-    display: flex;
-    align-items: center;
-  }
-  .maletaContainerTitle {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-  }
-`;
+const MaletaStyled = styled.div``;
 
 function Maleta() {
   return (
-    <MaletaStyled>
-      <div className="maletaContainer">
-        <div className="maletaContainerLogo">
-          <div className="maletaContainerTitle">
+    <MaletaStyled className="containerTarjetaPasos" id="maleta">
+      <div className="icono">
+        <NumberTwoIcon />
+      </div>
+      <div className="superiorBarra">
+        <div className="containerTitleLogo">
+          <div>
             <div>
-              <h2>HAZ TUS MALETAS</h2>
-              <h3>y hagamos esto juntos</h3>
+              <h1>HAZ TUS MALETAS</h1>
+              <p>y hagamos esto juntos</p>
             </div>
           </div>
           <LuggageIcon />
         </div>
-        <h5>
-          Villavicencio es una ciudad cálida <span>(27° C)</span>, por eso es
-          recomendable usar ropa fresca y cómoda
-        </h5>
-        <h4>Alista tu outfit</h4>
+        <div className="containerInferiorLogo">
+          <p>
+            Villavicencio es una ciudad cálida <span>(27° C)</span>, por eso es
+            recomendable usar ropa fresca y cómoda
+          </p>
+          <h2 id="outfit">Alista tu outfit</h2>
+        </div>
       </div>
       <div className="ropaConteiner">
         <div className="iconoPerson">
@@ -113,7 +43,6 @@ function Maleta() {
         <div className="iconoPerson">
           <ManJacketIcon />
         </div>
-
         <div className="containerPerson">
           <p className="ropa">
             <span className="person"></span>Guayabera blanca o de colores pastel

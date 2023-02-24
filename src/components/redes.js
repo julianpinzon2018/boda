@@ -1,29 +1,11 @@
 import styled from "styled-components";
 import InstagramLogo from "./icons/instagram_logo";
 
-const RedesStyled = styled.div`
-  border-radius: 0.5rem;
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-  padding: 0.7rem 0.5rem;
-  background-color: var(--background);
-  box-shadow: 2px 2px 5px rgba(000, 000, 000, 0.5);
-
-  .redess {
-    font: var(--siete);
-    font-size: 1rem;
-
-    color: var(--oscuro);
-  }
-  .instagram {
-    transform: translateY(10%);
-  }
-`;
+const RedesStyled = styled.div``;
 
 function Redes() {
   return (
-    <RedesStyled>
+    <RedesStyled id="redes">
       <div className="instagram">
         <InstagramLogo />
       </div>

@@ -1,77 +1,34 @@
 import styled from "styled-components";
 import GhlIcon from "./icons/ghl_icon";
 import HotelBellIcon from "./icons/hotel_bell_icon";
+import NumberThreeIcon from "./icons/number_three_icon";
+import SvgComponent from "./icons/estelar";
 
-const HospedajeStyled = styled.div`
-  background-color: var(--box3);
-  block-size: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  padding-block: 1rem;
-  padding-inline: 1.5rem;
-
-  color: var(--oscuro);
-  box-sizing: border-box;
-
-  * {
-    margin: 0;
-  }
-  .reservaLogo {
-    display: flex;
-    gap: 1rem;
-    flex-direction: column;
-    border-bottom: 2px solid var(--background);
-    margin-block-end: 0.5rem;
-  }
-  h2 {
-    font: var(--cinco);
-    font-size: 1.4rem;
-    line-height: 1.2rem;
-  }
-  h3 {
-    font: var(--seis);
-    font-size: 1.3rem;
-  }
-  h4 {
-    margin-block-start: 1.2rem;
-    margin-block-end: 0.3rem;
-    font: var(--seis);
-    font-size: 1.1rem;
-  }
-  h5 {
-    font: var(--tres);
-  }
-  .iconoGhl {
-    display: flex;
-    justify-content: center;
-    margin-inline-end: 7rem;
-  }
-  .reservaTitle {
-    display: flex;
-    gap: 1rem;
-    justify-content: space-between;
-  }
-`;
+const HospedajeStyled = styled.div``;
 
 function Hospedaje() {
   return (
-    <HospedajeStyled>
-      <div className="reservaLogo">
-        <div className="reservaTitle">
+    <HospedajeStyled className="containerTarjetaPasos" id="hospedaje">
+      <div className="icono">
+        <NumberThreeIcon />
+      </div>
+      <div className="superiorBarra">
+        <div className="containerTitleLogo">
           <div>
-            <h2>RESERVA TU HOSPEDAJE</h2>
-            <h3>en Villavicencio</h3>
+            <h1>RESERVA TU HOSPEDAJE</h1>
+            <p>en Villavicencio</p>
           </div>
           <HotelBellIcon />
         </div>
-        <h4>Sugerimos este hotel</h4>
+        <div className="containerInferiorLogo">
+          <h2>Sugerimos este hotel</h2>
+        </div>
       </div>
-      <div className="iconoGhl">
+      <div className="iconoHoteles">
+        <SvgComponent />
         <GhlIcon />
       </div>
-      <h5>Pregunta por la boda de Mao y Luisa</h5>
+      <h3>Pregunta por la boda de Mao y Luisa</h3>
     </HospedajeStyled>
   );
 }

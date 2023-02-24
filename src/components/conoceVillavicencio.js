@@ -7,79 +7,18 @@ import VillavoPopulationIcon from "./icons/villavo_population_icon";
 import VillavoWeatherIcon from "./icons/villavo_weather_icon";
 import WebdingGastronomyIcon from "./icons/webding_gastronomy_icon";
 
-const ConoceVillavicencioStyled = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  inline-size: 95%;
-  margin-block: 2.5rem;
-  box-sizing: border-box;
-  padding-inline: 0.5rem;
-
-  * {
-    margin: 0;
-  }
-  .logoVillavo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-  .titleVillavo {
-    text-align: center;
-  }
-  h2 {
-    font: var(--cinco);
-    font-size: 1.8rem;
-    color: var(--oscuro);
-  }
-  h3 {
-    font: var(--seis);
-    font-size: 1.3rem;
-    color: var(--amarillo);
-  }
-  .villavoGrid {
-    margin: auto;
-    margin-top: 1.5rem;
-
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-
-    column-gap: 1rem;
-    row-gap: 1.5rem;
-
-    color: var(--oscuro);
-  }
-  p {
-    font: var(--seis);
-    font-size: 1.1rem;
-    line-height: 1.2rem;
-    overflow: hidden;
-  }
-  .iconoVillavo {
-    display: flex;
-    justify-content: center;
-  }
-  .textMargin {
-    margin-inline-end: 1rem;
-  }
-  h4 {
-    margin-top: 1rem;
-    text-align: center;
-    font: var(--cinco);
-    font-size: 1.5rem;
-    color: var(--amarillo);
-  }
-`;
+const ConoceVillavicencioStyled = styled.div``;
 
 function ConoceVillavicencio() {
   return (
-    <ConoceVillavicencioStyled>
+    <ConoceVillavicencioStyled
+      className="containerComponent"
+      id="villavicencio"
+    >
       <div className="logoVillavo">
         <div className="titleVillavo">
-          <h2>CONOCE ALGO DE VILLAVICENCIO</h2>
-          <h3>Sabemos que te va a encantar</h3>
+          <h1>CONOCE ALGO DE VILLAVICENCIO</h1>
+          <p>Sabemos que te va a encantar</p>
         </div>
         <VillavoIlustrationCity />
       </div>
@@ -126,7 +65,7 @@ function ConoceVillavicencio() {
         </p>
       </div>
 
-      <h4>LA RUMBA ES BUENISIMA...</h4>
+      <h2>LA RUMBA ES BUENISIMA...</h2>
     </ConoceVillavicencioStyled>
   );
 }

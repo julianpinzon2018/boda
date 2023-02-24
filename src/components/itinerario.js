@@ -1,87 +1,72 @@
 import styled from "styled-components";
-import imgBackgFotter from "./images/vintage_footer_background_image.png";
-import MesaDeRegalos from "./mesaDeRegalos";
-import PieDePagina from "./pieDePagina";
-import ItineTarjeta from "./itineTarjeta";
-import Redes from "./redes";
+import WebdingScheduleIcon from "./icons/webding_schedule_icon";
+import WebdingFlowersIcon from "./icons/webding_flowers_icon";
+import WebdingRingsIcon from "./icons/webding_rings_icon";
 
-const ItinerarioStyled = styled.div`
-  position: relative;
-  * {
-    margin: 0;
-  }
-  .imgBackgFotter {
-    position: absolute;
-
-    inline-size: 100%;
-    block-size: 100%;
-    z-index: -1;
-    inset-block-end: 0;
-  }
-  .containerItinerario {
-    padding-inline: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    padding-inline: 0.5rem;
-    margin: auto;
-    inline-size: 85%;
-  }
-  .itinerario {
-    inline-size: 100%;
-    block-size: 100%;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-  }
-  .itinerarioTarjeta {
-    block-size: 100%;
-    inline-size: 100%;
-    border-radius: 1.3rem;
-    overflow: hidden;
-  }
-  .containerTarijetaItinerario {
-    inline-size: 100%;
-    position: relative;
-    display: flex;
-    margin-block: 0.5rem;
-  }
-  .containerRedes {
-    border: 1px solid red;
-  }
-  .regalos {
-    margin-inline: 10%;
-    margin-block: 2.5rem;
-  }
-
-  .dario {
-    margin: auto;
-    margin-bottom: 0.5rem !important;
-  }
-  .redes {
-    margin-block: 1rem;
-  }
-`;
+const ItinerarioStyled = styled.div``;
 
 function Itinerario() {
   return (
-    <ItinerarioStyled>
-      <img className="imgBackgFotter" src={imgBackgFotter} alt="" />
-      <div className="containerItinerario">
-        <div className="itinerario">
-          <div className="containerTarijetaItinerario">
-            <div className="itinerarioTarjeta">
-              <ItineTarjeta />
+    <ItinerarioStyled className="containerComponent" id="itinerario">
+      <div className="superiorBarra">
+        <div className="reserva">
+          <h1>
+            LO QUE VAMOS A HACER
+            <br />
+            <span className="subItenerario">en Villavicencio</span>
+          </h1>
+          <h2>Este es el itinerario que preparamos para ti:</h2>
+        </div>
+        <div>
+          <div className="containerItine ">
+            <div className="seccionItinerario n">
+              <div className="evento">
+                <WebdingScheduleIcon />
+              </div>
+              <div className="prevoda">
+                <div className="horario">
+                  <h3>EVENTO PREBODA</h3>
+                  <p className="fechaEvento">
+                    Viernes <span className="styleFech">16/06/2023</span>
+                  </p>
+                  <p className="descriptionEvent">
+                    Cena en Restaurante Campestre Ave María
+                  </p>
+                </div>
+                <WebdingFlowersIcon />
+              </div>
+            </div>
+            <div className="dia">
+              <div className="seccionItinerario">
+                <div className="evento">
+                  <WebdingRingsIcon />
+                </div>
+                <div className="horario">
+                  <h3>EL DÍA DE LA BODA</h3>
+                  <p className="fechaEvento">
+                    Sábado <span className="styleFech">17/06/2023</span>
+                  </p>
+                  <p className="descriptionEvent">
+                    Hacienda El Campanario en el municipio de Restrepo, a 13 km
+                    de Villavicencio. Salida desde el hotel en Chiva Rumbera
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="seccionItinerario m">
+              <div className="evento">
+                <WebdingScheduleIcon />
+              </div>
+              <div className="horario">
+                <h3>EVENTO POSTBODA</h3>
+                <p className="fechaEvento">
+                  Domingo <span className="styleFech">18/06/2023</span>
+                </p>
+                <p className="descriptionEvent">Sol, cerveza y piscina</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="regalos">
-          <MesaDeRegalos />
-        </div>
-        <div className="redes">
-          <Redes />
-        </div>
-        <div className="dario">
-          <PieDePagina />
         </div>
       </div>
     </ItinerarioStyled>

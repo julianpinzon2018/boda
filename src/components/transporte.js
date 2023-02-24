@@ -1,100 +1,40 @@
 import styled from "styled-components";
 import TransportionSuvIcon from "./icons/transportion_suv_icon";
+import NumberFourIcon from "./icons/number_four_icon";
 
-const TransporteStyled = styled.div`
-  background-color: var(--box4);
-  block-size: 100%;
-  inline-size: 100%;
-  display: flex;
-  flex-direction: column;
-
-  padding-block: 1rem;
-  padding-inline: 1.5rem;
-  box-sizing: border-box;
-  gap: 0.3rem;
-  justify-content: space-between;
-
-  * {
-    margin: 0;
-    color: var(--oscuro);
-  }
-  h2 {
-    font: var(--cinco);
-    line-height: 1.2rem;
-    font-size: 1.4rem;
-  }
-  .transContainer {
-    display: flex;
-    justify-content: space-between;
-    gap: 0.9rem;
-    align-items: center;
-  }
-  h3 {
-    margin-block-start: 1.2rem;
-    font: var(--seis);
-    font-size: 1.1rem;
-    line-height: 1.3rem;
-    margin-block-end: 0.3rem;
-  }
-  .barra {
-    margin-block-end: 0.5rem;
-    border-bottom: 2px solid var(--background);
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-  }
-  .carros {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-block-end: 0.8rem;
-    align-items: center;
-    margin-block-end: 1rem;
-    margin-block-start: 0.5rem;
-  }
-  h4 {
-    font: var(--seis);
-    font-size: 1rem;
-    line-height: 1rem;
-    text-decoration-line: underline;
-    text-align: center;
-  }
-  h5 {
-    font: var(--siete);
-    font-size: 0.95rem;
-  }
-  .subTitle {
-    font: var(--seis);
-    font-size: 1.2rem;
-  }
-`;
+const TransporteStyled = styled.div``;
 
 function Transporte() {
   return (
-    <TransporteStyled>
-      <div className="barra">
-        <div className="transContainer">
-          <h2>
-            CONTACTA TU TRANSPORTE
-            <br />
-            <span className="subTitle">de Bogotá a Villavicencio</span>
-          </h2>
+    <TransporteStyled className="containerTarjetaPasos" id="transporte">
+      <div className="icono">
+        <NumberFourIcon />
+      </div>
+      <div className="superiorBarra">
+        <div className="containerTitleLogo">
+          <div>
+            <h1>CONTACTA TU TRANSPORTE</h1>
+            <p>de Bogotá a Villavicencio</p>
+          </div>
           <TransportionSuvIcon />
         </div>
-        <h3>
-          Las siguientes empresas ofrecen camionetas privadas que te llevarán
-          desde cualquier punto de Bogotá (incluyendo el aeropuerto) hasta tu
-          hotel en Villavicencio
-        </h3>
+        <div className="containerInferiorLogo">
+          <p>
+            Las siguientes empresas ofrecen camionetas privadas que te llevarán
+            desde cualquier punto de Bogotá (incluyendo el aeropuerto) hasta tu
+            hotel en Villavicencio
+          </p>
+        </div>
       </div>
       <div className="carros">
-        <h4>Expresos Bog</h4>
-        <h4>Transportes VIP</h4>
+        <h2>Expresos Bog</h2>
+        <h2>Transportes VIP</h2>
       </div>
       <div>
-        <h5>
+        <hp>
           "El servicio tiene un costo aproximado de 60 USD, donde podrás viajar
           solo o con algún compañero que tambien asistirá a la boda
-        </h5>
+        </hp>
       </div>
     </TransporteStyled>
   );
