@@ -82,8 +82,8 @@ function Transporte() {
         </div>
         <h3>
           Las siguientes empresas ofrecen camionetas privadas que te llevarán
-          desde cualquier punto de Bogotá (incluyendo el aeropuerto) hasta el
-          hotel ghl en Villavicencio
+          desde cualquier punto de Bogotá (incluyendo el aeropuerto) hasta tu
+          hotel en Villavicencio
         </h3>
       </div>
       <div className="carros">
