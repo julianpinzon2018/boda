@@ -140,8 +140,8 @@ function ItineTarjeta() {
                     Sábado <span className="styleFech">17/06/2023</span>
                   </h5>
                   <h6>
-                    Hacienda típica en el municipio de Restrepo, a 13 km de
-                    Villavicencio. Salida desde el hotel ghl en Chiva Rumbera
+                    Hacienda El Campanario en el municipio de Restrepo, a 13 km
+                    de Villavicencio. Salida desde el hotel ghl en Chiva Rumbera
                   </h6>
                 </div>
               </div>

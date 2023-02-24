@@ -36,9 +36,9 @@ function MesaDeRegalos() {
         <GiftIcon />
       </div>
       <h3>
-        No queremos complicarte buscando o cargando regalos, por eso
-        habilitaremos una mesa para lluvia de sobres o transferencia bancaria
-        destinada a la luna de miel.
+        No queremos complicarte buscando regalos, por eso habilitaremos una mesa
+        para lluvia de sobres o transferencia bancaria destinada a la luna de
+        miel.
       </h3>
     </MesaDeRegalosStyled>
   );
