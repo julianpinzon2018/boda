@@ -12,7 +12,7 @@ const ConoceVillavicencioStyled = styled.div`
   flex-direction: column;
   margin: auto;
   inline-size: 95%;
-  margin-block: 2rem;
+  margin-block: 2.5rem;
   box-sizing: border-box;
   padding-inline: 0.5rem;
 
