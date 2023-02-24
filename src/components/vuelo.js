@@ -32,11 +32,11 @@ const VueloStyled = styled.div`
   h2 {
     font: var(--cinco);
     font-size: 1.4rem;
-    line-height: 1.3rem;
+    line-height: 1.2rem;
   }
   h3 {
     font: var(--seis);
-    line-height: 1.2rem;
+    line-height: 1.3rem;
     font-size: 1.1rem;
     margin-block-end: 0.3rem;
   }

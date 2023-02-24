@@ -20,7 +20,7 @@ const TransporteStyled = styled.div`
   }
   h2 {
     font: var(--cinco);
-    line-height: 1.3rem;
+    line-height: 1.2rem;
     font-size: 1.4rem;
   }
   .transContainer {
@@ -33,7 +33,7 @@ const TransporteStyled = styled.div`
     margin-block-start: 1.2rem;
     font: var(--seis);
     font-size: 1.1rem;
-    line-height: 1.2rem;
+    line-height: 1.3rem;
     margin-block-end: 0.3rem;
   }
   .barra {

@@ -28,11 +28,11 @@ const HospedajeStyled = styled.div`
   h2 {
     font: var(--cinco);
     font-size: 1.4rem;
-    line-height: 1.3rem;
+    line-height: 1.2rem;
   }
   h3 {
     font: var(--seis);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   h4 {
     margin-block-start: 1.2rem;
