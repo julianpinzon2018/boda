@@ -95,28 +95,27 @@ function ConoceVillavicencio() {
         <div className="iconoVillavo">
           <VillavoWeatherIcon />
         </div>
-
-        <p>Tiene una población de 550.000 habitantes</p>
+        <p>Su temperatura promedio es de 27° C, con un clima húmedo</p>
 
         <div className="iconoVillavo">
           <VillavoPopulationIcon />
         </div>
         <div className="textMargin">
-          <p>
-            La gastronomía se basa en las carnes, pescados, sopas y amasijos
-          </p>
+          <p>Tiene una población de 550.000 habitantes</p>
         </div>
 
         <div className="iconoVillavo">
           <VillavoLandscapeIcon />
         </div>
-        <p>Su temperatura promedio es de 27° C, con un clima húmedo</p>
+        <p>El paisaje es de piedemonte y sabana, con ríos</p>
 
         <div className="iconoVillavo">
           <WebdingGastronomyIcon />
         </div>
         <div className="textMargin">
-          <p>El paisaje es de piedemonte y sabana, con ríos</p>
+          <p>
+            La gastronomía se basa en las carnes, pescados, sopas y amasijos
+          </p>
         </div>
 
         <div className="iconoVillavo">
