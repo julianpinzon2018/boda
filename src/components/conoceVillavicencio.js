@@ -39,7 +39,7 @@ const ConoceVillavicencioStyled = styled.div`
     color: var(--amarillo);
   }
   .villavoGrid {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 
     display: grid;
     grid-template-columns: auto 1fr auto 1fr;
