@@ -35,26 +35,26 @@ const ItineTarjetaStyled = styled.div`
   }
   h3 {
     font: var(--seis);
-    line-height: 1rem;
+    line-height: 1.3rem;
     color: var(--amarillo);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-block: 1.2rem;
   }
   h4 {
     font: var(--cinco);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   h5 {
     font: var(--ocho);
     line-height: 0.8rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: var(--amarillo);
     margin-block: 0.5rem;
   }
   .styleFech {
     font: var(--seis);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   h6 {
     font: var(--seis);
@@ -79,9 +79,9 @@ const ItineTarjetaStyled = styled.div`
     gap: 0.5rem;
   }
   .dia {
-    padding-block: 0.7rem;
-    margin-block-start: 0.7rem;
-    margin-block-end: 0.3rem;
+    padding-block: 1.2rem;
+    margin-block-start: 1.2rem;
+    margin-block-end: 0.7rem;
     border-block: 2px solid var(--background);
   }
 
