@@ -27,6 +27,11 @@ const ItineTarjetaStyled = styled.div`
   h2 {
     font: var(--cinco);
     font-size: 1.4rem;
+    line-height: 1.2rem;
+  }
+  .subItenerario {
+    font: var(--seis);
+    font-size: 1.2rem;
   }
   h3 {
     font: var(--seis);
@@ -100,7 +105,11 @@ function ItineTarjeta() {
     <ItineTarjetaStyled>
       <div className="superiorBarra">
         <div className="reserva">
-          <h2>LO QUE VAMOS A HACER EN VILLAVICENCIO</h2>
+          <h2>
+            LO QUE VAMOS A HACER
+            <br />
+            <span className="subItenerario">en villavicencio</span>
+          </h2>
           <h3>Este es el itinerario que preparamos para ti:</h3>
         </div>
         <div>

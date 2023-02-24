@@ -67,7 +67,7 @@ const ConoceVillavicencioStyled = styled.div`
     margin-top: 1rem;
     text-align: center;
     font: var(--cinco);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: var(--amarillo);
   }
 `;
@@ -125,7 +125,7 @@ function ConoceVillavicencio() {
         </p>
       </div>
 
-      <h4>LA RUMBA DE VILLAVICENCIO ES BUENISIMA...</h4>
+      <h4>LA RUMBA ES BUENISIMA...</h4>
     </ConoceVillavicencioStyled>
   );
 }
