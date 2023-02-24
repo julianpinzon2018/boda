@@ -62,7 +62,7 @@ const MaletaStyled = styled.div`
   }
   .ropa {
     font: var(--tres);
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
   .person {
     font: var(--seis);
@@ -105,8 +105,8 @@ function Maleta() {
         </div>
         <div className="containerPerson">
           <p className="ropa">
-            <span className="person">mujeres &nbsp;</span> Vestido largo de
-            color pastel, evitar color blanco o similares.
+            <span className="person"></span>Vestido largo de color pastel,
+            evitar color blanco o similares
           </p>
         </div>
         <div className="iconoPerson">
@@ -115,8 +115,7 @@ function Maleta() {
 
         <div className="containerPerson">
           <p className="ropa">
-            <span className="person">hombres &nbsp;</span>Guayabera blanca o de
-            colores pastel
+            <span className="person"></span>Guayabera blanca o de colores pastel
           </p>
         </div>
       </div>
