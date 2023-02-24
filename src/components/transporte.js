@@ -20,6 +20,7 @@ const TransporteStyled = styled.div`
   }
   h2 {
     font: var(--cinco);
+    line-height: 1.2rem;
     font-size: 1.4rem;
   }
   .transContainer {
@@ -57,6 +58,10 @@ const TransporteStyled = styled.div`
     font: var(--siete);
     font-size: 0.8rem;
   }
+  .subTitle {
+    font: var(--seis);
+    font-size: 1.2rem;
+  }
 `;
 
 function Transporte() {
@@ -64,7 +69,11 @@ function Transporte() {
     <TransporteStyled>
       <div className="barra">
         <div className="transContainer">
-          <h2>CONTACTA TU TRANSPORTE DE BOGOTÁ A TU HOTEL EN VILLAVICENCIO</h2>
+          <h2>
+            CONTACTA TU TRANSPORTE
+            <br />
+            <span className="subTitle">de bogota a villavicencio</span>
+          </h2>
           <TransportionSuvIcon />
         </div>
         <h3>
