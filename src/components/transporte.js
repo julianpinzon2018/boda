@@ -44,19 +44,22 @@ const TransporteStyled = styled.div`
   }
   .carros {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     margin-block-end: 0.8rem;
-    justify-content: space-between;
+    align-items: center;
+    margin-block-end: 1rem;
+    margin-block-start: 0.5rem;
   }
   h4 {
-    font: var(--cuatro);
-    font-size: 0.8rem;
+    font: var(--seis);
+    font-size: 1rem;
     line-height: 1rem;
     text-decoration-line: underline;
+    text-align: center;
   }
   h5 {
     font: var(--siete);
-    font-size: 0.8rem;
+    font-size: 0.95rem;
   }
   .subTitle {
     font: var(--seis);
@@ -83,9 +86,8 @@ function Transporte() {
         </h3>
       </div>
       <div className="carros">
-        <h4>Carlos Calle Expresos</h4>
-        <h4>Alex Domicilios</h4>
-        <h4>Puerta a Puerta BOGVVC</h4>
+        <h4>Expresos</h4>
+        <h4>Transportes VIP</h4>
       </div>
       <div>
         <h5>
