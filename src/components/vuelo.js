@@ -93,7 +93,7 @@ function Vuelo() {
       <div className="superiorBarra">
         <div className="reservaConten">
           <div className="reserva">
-            <h2>RESERVA TU VUELO YA.</h2>
+            <h2>RESERVA TU VUELO YA</h2>
           </div>
           <AirplaneBogColIcon />
         </div>
