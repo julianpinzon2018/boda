@@ -27,7 +27,7 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
 }
-h1 {
+ h1 {
   margin: 0;
 } 
 h2 {
@@ -48,6 +48,8 @@ h6 {
 p {
   margin: 0;
 }
+
+
 .containerComponent {
   display: flex;
     flex-direction: column;

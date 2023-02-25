@@ -4,7 +4,7 @@ import Invitacion from "./invitacion";
 import Itinerario from "./itinerario";
 import Pasos from "./pasos";
 import imgBackgFotter from "./images/vintage_footer_background_image.png";
-import image from "./images/header_images.png";
+import image from "./images/header_imagess.png";
 import MesaDeRegalos from "./mesaDeRegalos";
 import PieDePagina from "./pieDePagina";
 
