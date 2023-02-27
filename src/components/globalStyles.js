@@ -467,6 +467,9 @@ h2 {
       .place-link {
     text-decoration: none;
     color: var(--dark);
+    text-decoration: underline;
+
+    
   }
   }
   .section-itinerary {
