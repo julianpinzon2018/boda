@@ -1,16 +1,16 @@
-import Invitacion from "./components/invitacion";
-import ConoceVillavicencio from "./components/conoceVillavicencio";
-import Itinerario from "./components/itinerario";
-import Pasos from "./components/pasos";
+import Invitation from "./components/Invitation";
+import KnowVillavicencio from "./components/knowVillavicencio";
+import Itinerary from "./components/itinerary";
+import Steps from "./components/steps";
 import Layout from "./components/layout";
 
 function App() {
   return (
     <Layout>
-      <Invitacion />
-      <Pasos />
-      <ConoceVillavicencio />
-      <Itinerario />
+      <Invitation />
+      <Steps />
+      <KnowVillavicencio />
+      <Itinerary />
     </Layout>
   );
 }

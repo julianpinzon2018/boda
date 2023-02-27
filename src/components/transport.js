@@ -2,23 +2,23 @@ import styled from "styled-components";
 import TransportionSuvIcon from "./icons/transportion_suv_icon";
 import NumberFourIcon from "./icons/number_four_icon";
 
-const TransporteStyled = styled.div``;
+const TransportStyled = styled.div``;
 
-function Transporte() {
+function Transport() {
   return (
-    <TransporteStyled className="containerTarjetaPasos" id="transporte">
-      <div className="icono">
+    <TransportStyled className="container-card-steps" id="transport">
+      <div className="icon">
         <NumberFourIcon />
       </div>
-      <div className="superiorBarra">
-        <div className="containerTitleLogo">
+      <div className="top-bar">
+        <div className="container-title-logo">
           <div>
             <h1>CONTACTA TU TRANSPORTE</h1>
             <p>de Bogotá a Villavicencio</p>
           </div>
           <TransportionSuvIcon />
         </div>
-        <div className="containerInferiorLogo">
+        <div className="container-bottom-logo">
           <p>
             Las siguientes empresas ofrecen camionetas privadas que te llevarán
             desde cualquier punto de Bogotá (incluyendo el aeropuerto) hasta tu
@@ -26,9 +26,9 @@ function Transporte() {
           </p>
         </div>
       </div>
-      <div className="carros">
+      <div className="cars">
         <h2>Expresos Bog</h2>
-        <h2>Transportes VIP</h2>
+        <h2>Transports VIP</h2>
       </div>
       <div>
         <hp>
@@ -36,8 +36,8 @@ function Transporte() {
           solo o con algún compañero que tambien asistirá a la boda
         </hp>
       </div>
-    </TransporteStyled>
+    </TransportStyled>
   );
 }
 
-export default Transporte;
+export default Transport;

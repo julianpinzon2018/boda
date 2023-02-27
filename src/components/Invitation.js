@@ -1,24 +1,24 @@
 import styled from "styled-components";
 
-import imageFoto from "./images/Maoylu_colorful_header_image.png";
+import imagePhoto from "./images/Maoylu_colorful_header_image.png";
 
 import InvitedBadge from "./icons/invited_badge";
 
 const ProfileStyled = styled.header``;
 
-function Invitacion() {
+function Invitation() {
   return (
-    <ProfileStyled className="containerComponent" id="invitacion">
-      <div className="invitacionFoto">
-        <img src={imageFoto} alt="" />
-        <p className="casar">Nos vamos a casar</p>
+    <ProfileStyled className="container-component" id="invitation">
+      <div className="invitation-photo">
+        <img src={imagePhoto} alt="" />
+        <p className="marry">Nos vamos a casar</p>
         <h1>Mao & Lu</h1>
-        <div className="datos">
+        <div className="data">
           <span>17/06/2023</span>
           <p>VILLAVICENCIO - COLOMBIA</p>
         </div>
       </div>
-      <div className="invitacionLogo">
+      <div className="invitation-logo">
         <h2>
           NOS EMOCIONA COMPARTIR EL DÍA MÁS IMPORTANTE DE NUESTRA HISTORIA
           CONTIGO
@@ -30,4 +30,4 @@ function Invitacion() {
   );
 }
 
-export default Invitacion;
+export default Invitation;

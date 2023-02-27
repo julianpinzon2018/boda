@@ -1,12 +1,12 @@
 import styled from "styled-components";
 import GiftIcon from "./icons/gift_icon";
 
-const MesaDeRegalosStyled = styled.div``;
+const TableOfGiftsStyled = styled.div``;
 
-function MesaDeRegalos() {
+function TableOfGifts() {
   return (
-    <MesaDeRegalosStyled className="containerComponent" id="regalos">
-      <div className="containerRegalos">
+    <TableOfGiftsStyled className="container-component" id="gifts">
+      <div className="container-gifts">
         <h2>MESA DE REGALOS</h2>
         <GiftIcon />
       </div>
@@ -15,8 +15,8 @@ function MesaDeRegalos() {
         para lluvia de sobres o transferencia bancaria destinada a la luna de
         miel.
       </h3>
-    </MesaDeRegalosStyled>
+    </TableOfGiftsStyled>
   );
 }
 
-export default MesaDeRegalos;
+export default TableOfGifts;

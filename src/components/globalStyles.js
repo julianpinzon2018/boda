@@ -3,21 +3,21 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStylesStyled = createGlobalStyle`
 :root {
   --background: #f2efea;
-  --casar: #9e6a56;
-  --barra: #c9ae7e;
-  --oscuro: #704e39;
-  --amarillo: #CE7F3A;
+  --marry: #9e6a56;
+  --bar: #c9ae7e;
+  --dark: #704e39;
+  --yellow: #CE7F3A;
   --box1: #f1b48c;
   --box2: #eecdb0;
   --box3: #f7dbc3;
   --box4: #fcd3c2;
   --primary:italic 600  1rem Playfair Display ;
   --secondary: 600 2.3rem Playfair Display;
-  --tres: 13px Prata;
-  --cuatro: 600 5.3px Playfair Display;
-  --cinco: 1rem bebas kai;
-  --seis:  13.3px bahnschrift;
-  --siete: 9.3px bahnschrift;
+  --three: 13px Prata;
+  --four: 600 5.3px Playfair Display;
+  --five: 1rem bebas kai;
+  --six:  13.3px bahnschrift;
+  --seven: 9.3px bahnschrift;
   --nueve: .5rem bahnschrift;
   --diez: 1.6rem authentic;
 }
@@ -50,7 +50,7 @@ p {
 }
 
 
-.containerComponent {
+.container-component {
   display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,14 +59,14 @@ p {
     margin: auto;
 }
 
-#invitacion {
+#invitation {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   text-align: center;
   margin-block-start: 1.5rem;
-   .invitacionFoto {
-    color: var(--casar);
+   .invitation-photo {
+    color: var(--marry);
 
     img {
           block-size: 18rem;
@@ -76,85 +76,85 @@ p {
     margin: 0;
     font: var(--secondary);
     font-size: 3rem;
-    color: var(--casar);
+    color: var(--marry);
     margin-bottom: 3px;
-     border-block: 3px solid var(--barra);
+     border-block: 3px solid var(--bar);
     margin-inline: 5%;
   }
-    .casar {
+    .marry {
     font: var(--primary);
     font-size: 1.4rem;
     margin-block-start: -4rem;
     margin-block-end: 0.5rem;
   }
 }
-  .datos {
+  .data {
     margin-block-start: 1rem;
 
     span {
-          font: var(--tres);
+          font: var(--three);
     font-size: 1.2rem;
-    color: var(--oscuro);
+    color: var(--dark);
     }
     p {
        
-    font: var(--siete);
-    color: var(--casar);
+    font: var(--seven);
+    color: var(--marry);
     font-size: 0.9rem;
     }
   }
-    .invitacionLogo {
+    .invitation-logo {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 
     h2 {
-    font: var(--cinco);
+    font: var(--five);
     font-size: 1.2rem;
-    color: var(--oscuro);
+    color: var(--dark);
     font-style: italic;
   }
     h3 {
-    color: var(--oscuro);
-    font: var(--cinco);
+    color: var(--dark);
+    font: var(--five);
     font-size: 1.3rem;
   }
   }
 
 }
 
-#pasos {
+#steps {
   display: flex;
   flex-direction: column;
   inline-size: 85%;
   gap: 1rem;
-  color: var(--oscuro);
+  color: var(--dark);
 
-.containerLogosAnillos {
+.container-logos-rings {
     h4 {
       margin-block-start: .5rem;
-      font: var(--seis);
+      font: var(--six);
       font-size: 1.2rem;
-      color: var(--amarillo);
+      color: var(--yellow);
       text-align: center;
     } 
 }
-  .superiorBarra {
+  .top-bar {
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
     justify-content: space-between;
     border-bottom: 2px solid var(--background);
-    .containerTitleLogo {
+    .container-title-logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
         p {
-    font: var(--seis);
+    font: var(--six);
     font-size: 1.3rem;
   }
     h1 {
-    font: var(--cinco);
+    font: var(--five);
     font-size: 1.4rem;
     line-height: 1.2rem;
     display: flex;
@@ -163,24 +163,24 @@ p {
   }   
 
   }
-    .containerInferiorLogo {
+    .container-bottom-logo {
     padding-block: 0.3rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
       p {
-    font: var(--seis);
+    font: var(--six);
     line-height: 1.3rem;
     font-size: 1.1rem;
     margin-block-end: 0.3rem;
   }
      h2 {
-    font: var(--seis);
+    font: var(--six);
     font-size: 1rem;
     line-height: 1.2rem;
   }
   h3 {
-    font: var(--seis);
+    font: var(--six);
     margin-block-start: 1.2rem;
     font-style: italic;
     font-size: 1rem;
@@ -188,90 +188,90 @@ p {
 
   }
   }
-    .contenAero {
+    .conten-aero {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     row-gap: 1rem;
   }
 
-  .styleFecha {
+  .style-date {
     font-size: 1rem;
   }
    
 
   
-  #vuelo {
+  #flight {
     background-color: var(--box1);
   }
-  #maleta {
+  #suitcase {
   background-color: var(--box2);
       #outfit {
-    font: var(--seis);
+    font: var(--six);
     font-size: 1.2rem;
-    color: var(--amarillo);
+    color: var(--yellow);
     margin-block-start: 1.2rem;
     margin-block-end: 0.3rem;
   }
-    .ropaConteiner {
+    .clothes-conteiner {
     display: grid;
     grid-template-columns: 1fr 7fr;
     grid-template-rows: auto auto;
     column-gap: 1rem;
     row-gap: 0.3rem;
-  .iconoPerson {
+  .icon-person {
     text-align: center;
   }
-  .ropa {
-    font: var(--seis);
+  .clothes {
+    font: var(--six);
     font-size: 1rem;
   }
   .person {
-    font: var(--seis);
+    font: var(--six);
     font-size: 1rem;
     line-height: 0.8rem;
   }
-  .containerPerson {
+  .container-person {
     display: flex;
     align-items: center;
   }
   }
 
   }
-  #hospedaje {
+  #lodging {
     inline-size: 85%;
   background-color: var(--box3);
   h2{
     margin-block-start: 1.2rem;
     margin-block-end: 0.3rem;
-    font: var(--seis);
+    font: var(--six);
     font-size: 1.1rem;
   }
   h3 {
-    font: var(--tres);
+    font: var(--three);
   }
-  .iconoHoteles {
+  .icon-hotels {
     display: flex;
     justify-content: space-evenly;
     align-items:center;
   }
   }
-  #transporte {
+  #transport {
   background-color: var(--box4);
 
-  .containerInferiorLogo {
+  .container-bottom-logo {
     p {
       margin-block-start : 1rem;
     }
   }
-.containerTitleLogo {
+.container-title-logo {
   p {
     font-size: 1.1rem;
   }
 } 
 
 
-    .carros {
+    .cars {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-block-end: 0.8rem;
@@ -279,21 +279,21 @@ p {
     margin-block-end: 1rem;
     margin-block-start: 0.5rem;
     h2 {
-      font: var(--seis);
+      font: var(--six);
       font-size: 1rem;
       line-height: 1rem;
       text-decoration-line: underline;
       text-align: center;
     }
     p {
-      font: var(--siete);
+      font: var(--seven);
       font-size: 0.95rem;
     }
   }
   
 
   }
-  .containerLogosAnillos {
+  .container-logos-rings {
     div {
       display: flex;
       justify-content: center;
@@ -304,7 +304,7 @@ p {
       height: 3.5rem;
     }
   }
-  .containerTarjetaPasos {
+  .container-card-steps {
     position: relative;
     display: flex;
     border-radius: 1.5rem;
@@ -313,7 +313,7 @@ p {
     padding-inline: 1.5rem;
     padding-block: 1rem;
     gap: 0.5rem;
-    .icono {
+    .icon {
       position: absolute;
       inset-block-start: 21%;
       transform: translateX(-110%);
@@ -322,7 +322,7 @@ p {
 }
 
 #villavicencio {
-    .logoVillavo {
+    .logo-villavo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -330,18 +330,18 @@ p {
      .titleVillavo {
     text-align: center;
     h1 {
-      font: var(--cinco);
+      font: var(--five);
       font-size: 1.8rem;
-      color: var(--oscuro);
+      color: var(--dark);
     }
     p {
-      font: var(--seis);
+      font: var(--six);
       font-size: 1.3rem;
-      color: var(--amarillo);
+      color: var(--yellow);
     }
   }
   }
-    .villavoGrid {
+    .villavo-grid {
     margin: auto;
     margin-top: 1.5rem;
 
@@ -352,42 +352,42 @@ p {
     column-gap: 1rem;
     row-gap: 1.5rem;
 
-    color: var(--oscuro);
+    color: var(--dark);
       p {
-    font: var(--seis);
+    font: var(--six);
     font-size: 1.1rem;
     line-height: 1.2rem;
     overflow: hidden;
   }
-  .iconoVillavo {
+  .icon-villavo {
     display: flex;
     justify-content: center;
   }
-  .textMargin {
+  .text-margin {
     margin-inline-end: 1rem;
   }
 }
 h2 {
   margin-top: 1rem;
   text-align: center;
-  font: var(--cinco);
+  font: var(--five);
   font-size: 1.5rem;
-  color: var(--amarillo);
+  color: var(--yellow);
 }
 }
 
 
-#itinerario {
+#itinerary {
   display: flex;
   flex-direction: column;
-  color: var(--oscuro);
+  color: var(--dark);
   border-radius: 1.5rem;
   background-color: var(--box3);
   padding-block: 1rem;
   padding-inline: 1.5rem;
   inline-size: 75% !important;
 
-    .superiorBarra {
+    .top-bar {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -397,60 +397,60 @@ h2 {
   }
 
   h1 {
-    font: var(--cinco);
+    font: var(--five);
     font-size: 1.6rem;
     line-height: 1.2rem;
   }
-  .subItenerario {
-    font: var(--seis);
+  .sub-itinerary {
+    font: var(--six);
     font-size: 1.2rem;
   }
   h2 {
-    font: var(--seis);
+    font: var(--six);
     line-height: 1.3rem;
-    color: var(--amarillo);
+    color: var(--yellow);
     font-size: 1.2rem;
     margin-block: 1.2rem;
   }
   h3 {
-    font: var(--cinco);
+    font: var(--five);
     font-size: 1.4rem;
   }
 
-  .fechaEvento {
+  .date-event {
     font: var(--ocho);
     line-height: 0.8rem;
     font-size: 1.2rem;
-    color: var(--amarillo);
+    color: var(--yellow);
     margin-block: 0.5rem;
   }
-  .styleFech {
-    font: var(--seis);
+  .style-fech {
+    font: var(--six);
     font-size: 1.2rem;
   }
-  .descriptionEvent {
-    font: var(--seis);
+  .description-event {
+    font: var(--six);
     font-size: 1.1rem;
 
     line-height: 1.2rem;
   }
-  .containerItine {
+  .container-itine {
     display: flex;
     block-size: 100%;
     flex-direction: column;
     justify-content: space-between;
   }
-  .seccionItinerario {
+  .section-itinerary {
     display: grid;
     grid-template-columns: 1fr 7fr;
     gap: 0.5rem;
   }
-  .prevoda {
+  .pre-wedding {
     display: flex;
     justify-content: space-between;
     gap: 0.5rem;
   }
-  .dia {
+  .day {
     padding-block: 1.2rem;
     margin-block-start: 1.2rem;
     margin-block-end: 0.7rem;
@@ -461,11 +461,11 @@ h2 {
     margin-top: 0.4rem;
   }
 
-  .evento {
+  .event {
     text-align: center;
     margin-top: 0.2rem;
   }
-  .horario {
+  .schedule {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -473,12 +473,12 @@ h2 {
 
 }
 
-#regalos {
+#gifts {
     inline-size: 70% !important;
   margin: auto;
-  color: var(--oscuro);
+  color: var(--dark);
 
-  .containerRegalos {
+  .container-gifts {
     display: flex;
     margin: auto;
     gap: 1.5rem;
@@ -487,13 +487,13 @@ h2 {
     inline-size: 100%;
   }
   h2 {
-    font: var(--cinco);
+    font: var(--five);
     font-size: 1.8rem;
     margin-bottom: 0.2rem;
   }
   h3 {
-    color: var(--casar);
-    font: var(--seis);
+    color: var(--marry);
+    font: var(--six);
     font-size: 1.2rem;
     line-height: 1.2rem;
     margin-block-start: 0.5rem;
@@ -501,27 +501,27 @@ h2 {
   }
 }
 
-#pieDePagina {
+#footer {
    inline-size: 85%;
   margin: auto;
   margin-block: 0.5rem;
-  .darioLogo {
+  .dario-logo {
     padding-block: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .darioFoto {
+  .dario-photo {
     width: 30%;
     height: auto;
   }
-  .juntosFirma {
+  .together-sign {
     width: 100%;
     display: flex;
     justify-content: center;
   }
 
-  #redes {
+  #networks {
   border-radius: 0.5rem;
   display: flex;
   gap: 0.5rem;
@@ -531,11 +531,11 @@ h2 {
   box-shadow: 2px 2px 5px rgba(000, 000, 000, 0.5);
   margin-block: 1rem;
 
-  .redess {
-    font: var(--siete);
+  .networkss {
+    font: var(--seven);
     font-size: 1rem;
 
-    color: var(--oscuro);
+    color: var(--dark);
   }
   .instagram {
     transform: translateY(10%);

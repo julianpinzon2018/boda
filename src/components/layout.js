@@ -1,29 +1,29 @@
 import styled from "styled-components";
-import ConoceVillavicencio from "./conoceVillavicencio";
-import Invitacion from "./invitacion";
-import Itinerario from "./itinerario";
-import Pasos from "./pasos";
+import KnowVillavicencio from "./knowVillavicencio";
+import Invitation from "./Invitation";
+import Itinerary from "./itinerary";
+import Steps from "./steps";
 import imgBackgFotter from "./images/vintage_footer_background_image.png";
 import image from "./images/header_imagess.png";
-import MesaDeRegalos from "./mesaDeRegalos";
-import PieDePagina from "./pieDePagina";
+import TableOfGifts from "./tableOfGifts";
+import Footer from "./footer";
 
 const LayoutStyled = styled.main`
-  inline-size: 100vw;
+  max-inline-size: 100vw;
   overflow-x: hidden !important;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
   gap: 3rem;
   position: relative;
-  .imageBackground {
+  .image-background {
     position: absolute;
     inset-block-start: 0;
     inline-size: 100%;
     z-index: -1;
   }
 
-  .imgBackgFotter {
+  .img-backg-fotter {
     position: absolute;
     inline-size: 100%;
     block-size: auto;
@@ -35,16 +35,16 @@ const LayoutStyled = styled.main`
 function Layout() {
   return (
     <LayoutStyled>
-      <img className="imageBackground" src={image} alt="" />
+      <img className="image-background" src={image} alt="" />
 
-      <Invitacion />
-      <Pasos />
-      <ConoceVillavicencio />
-      <Itinerario />
-      <MesaDeRegalos />
-      <PieDePagina />
+      <Invitation />
+      <Steps />
+      <KnowVillavicencio />
+      <Itinerary />
+      <TableOfGifts />
+      <Footer />
 
-      <img className="imgBackgFotter" src={imgBackgFotter} alt="" />
+      <img className="img-backg-fotter" src={imgBackgFotter} alt="" />
     </LayoutStyled>
   );
 }

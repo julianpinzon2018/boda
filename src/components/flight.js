@@ -6,20 +6,20 @@ import AviancaLogo from "./icons/avianca_logo.js";
 import LatamLogo from "./icons/latam_logo.js";
 import NumberOneIcon from "./icons/number_one_icon";
 
-const VueloStyled = styled.div``;
+const FlightStyled = styled.div``;
 
-function Vuelo() {
+function Flight() {
   return (
-    <VueloStyled className="containerTarjetaPasos" id="vuelo">
-      <div className="icono">
+    <FlightStyled className="container-card-steps" id="flight">
+      <div className="icon">
         <NumberOneIcon />
       </div>
-      <div className="superiorBarra">
-        <div className="containerTitleLogo">
+      <div className="top-bar">
+        <div className="container-title-logo">
           <h1>RESERVA TU VUELO YA</h1>
           <AirplaneBogColIcon />
         </div>
-        <div className="containerInferiorLogo">
+        <div className="container-bottom-logo">
           <p>
             Es más económico comprarlo con tiempo que hacerlo sobre la fecha del
             viaje
@@ -27,19 +27,19 @@ function Vuelo() {
           <h2>
             Fecha sugerida
             <br />
-            <span className="styleFecha"> 16/06/2023 - 19/06/2023</span>
+            <span className="style-date"> 16/06/2023 - 19/06/2023</span>
           </h2>
           <h3>Aerolineas que te recomendamos:</h3>
         </div>
       </div>
-      <div className="contenAero">
+      <div className="conten-aero">
         <AviancaLogo />
         <AeromexicoLogo />
         <LatamLogo />
         <ArgentineArilinesLogo />
       </div>
-    </VueloStyled>
+    </FlightStyled>
   );
 }
 
-export default Vuelo;
+export default Flight;

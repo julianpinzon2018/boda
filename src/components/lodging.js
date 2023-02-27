@@ -4,33 +4,33 @@ import HotelBellIcon from "./icons/hotel_bell_icon";
 import NumberThreeIcon from "./icons/number_three_icon";
 import SvgComponent from "./icons/estelar";
 
-const HospedajeStyled = styled.div``;
+const LodgingStyled = styled.div``;
 
-function Hospedaje() {
+function Lodging() {
   return (
-    <HospedajeStyled className="containerTarjetaPasos" id="hospedaje">
-      <div className="icono">
+    <LodgingStyled className="container-card-steps" id="lodging">
+      <div className="icon">
         <NumberThreeIcon />
       </div>
-      <div className="superiorBarra">
-        <div className="containerTitleLogo">
+      <div className="top-bar">
+        <div className="container-title-logo">
           <div>
             <h1>RESERVA TU HOSPEDAJE</h1>
             <p>en Villavicencio</p>
           </div>
           <HotelBellIcon />
         </div>
-        <div className="containerInferiorLogo">
+        <div className="container-bottom-logo">
           <h2>Sugerimos este hotel</h2>
         </div>
       </div>
-      <div className="iconoHoteles">
+      <div className="icon-hotels">
         <SvgComponent />
         <GhlIcon />
       </div>
       <h3>Pregunta por la boda de Mao y Luisa</h3>
-    </HospedajeStyled>
+    </LodgingStyled>
   );
 }
 
-export default Hospedaje;
+export default Lodging;

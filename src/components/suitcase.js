@@ -4,16 +4,16 @@ import WomanDressIcon from "./icons/woman_dress_icon";
 import ManJacketIcon from "./icons/man_jacket_icon";
 import NumberTwoIcon from "./icons/number_two_icon";
 
-const MaletaStyled = styled.div``;
+const SuitcaseStyled = styled.div``;
 
-function Maleta() {
+function Suitcase() {
   return (
-    <MaletaStyled className="containerTarjetaPasos" id="maleta">
-      <div className="icono">
+    <SuitcaseStyled className="container-card-steps" id="suitcase">
+      <div className="icon">
         <NumberTwoIcon />
       </div>
-      <div className="superiorBarra">
-        <div className="containerTitleLogo">
+      <div className="top-bar">
+        <div className="container-title-logo">
           <div>
             <div>
               <h1>HAZ TUS MALETAS</h1>
@@ -22,7 +22,7 @@ function Maleta() {
           </div>
           <LuggageIcon />
         </div>
-        <div className="containerInferiorLogo">
+        <div className="container-bottom-logo">
           <p>
             Villavicencio es una ciudad cálida <span>(27° C)</span>, por eso es
             recomendable usar ropa fresca y cómoda
@@ -30,27 +30,27 @@ function Maleta() {
           <h2 id="outfit">Alista tu outfit</h2>
         </div>
       </div>
-      <div className="ropaConteiner">
-        <div className="iconoPerson">
+      <div className="clothes-conteiner">
+        <div className="icon-person">
           <WomanDressIcon />
         </div>
-        <div className="containerPerson">
-          <p className="ropa">
+        <div className="container-person">
+          <p className="clothes">
             <span className="person"></span>Vestido largo de color pastel,
             evitar color blanco o similares
           </p>
         </div>
-        <div className="iconoPerson">
+        <div className="icon-person">
           <ManJacketIcon />
         </div>
-        <div className="containerPerson">
-          <p className="ropa">
+        <div className="container-person">
+          <p className="clothes">
             <span className="person"></span>Guayabera blanca o de colores pastel
           </p>
         </div>
       </div>
-    </MaletaStyled>
+    </SuitcaseStyled>
   );
 }
 
-export default Maleta;
+export default Suitcase;
