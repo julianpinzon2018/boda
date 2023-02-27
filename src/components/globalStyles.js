@@ -57,7 +57,8 @@ p {
     flex-direction: column;
     align-items: center;
     padding-inline: 0.5rem;
-    inline-size: 90%;
+    max-inline-size: 1000px;
+  inline-size: 90%;
     margin: auto;
 }
 
@@ -904,15 +905,26 @@ h2 {
 @media screen and (min-width: 640px) {
 } */
 
-@media screen and (min-width: 1280px) {
- font-size: 22px; 
+@media screen and (max-width: 1980px) {
+  .container-component {
+  
+  }
+  :root{
+
+    font-size: 22px; 
+  }
 }
-@media screen and (min-width: 920px) {
-  font-size: 20px;
+@media screen and (max-width: 920px) {
+  :root {
+
+    font-size: 20px;
+  }
   
 }
-@media screen and (min-width: 760px) {
-  font-size: 16px;
+@media screen and (max-width: 760px) {
+  :root {
+    font-size: 16px;
+  }
 }
 
 
