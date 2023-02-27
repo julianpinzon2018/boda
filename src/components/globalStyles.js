@@ -545,7 +545,7 @@ h2 {
   
 }
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   .container-component {
     inline-size: 70% !important;
 }
@@ -904,7 +904,7 @@ h2 {
 @media screen and (min-width: 960px) {
 }
 @media screen and (min-width: 640px) {
-}
+} */
 
 
 
