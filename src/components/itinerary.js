@@ -43,7 +43,7 @@ function Itinerary() {
                 </div>
                 <div className="schedule">
                   <h3>EL DÍA DE LA BODA</h3>
-                  <p className="date-eventt">
+                  <p className="date-event">
                     Sábado <span className="style-fech">17/06/2023</span>
                   </p>
                   <p className="description-event">

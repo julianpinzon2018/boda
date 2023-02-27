@@ -30,11 +30,11 @@ function Transport() {
         <h2>Expresos Bog</h2>
         <h2>Transports VIP</h2>
       </div>
-      <div>
-        <hp>
+      <div className="priceCar">
+        <p>
           "El servicio tiene un costo aproximado de 60 USD, donde podrás viajar
           solo o con algún compañero que tambien asistirá a la boda
-        </hp>
+        </p>
       </div>
     </TransportStyled>
   );

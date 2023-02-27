@@ -1,4 +1,4 @@
-import Invitation from "./components/Invitation";
+import Invitation from "./components/invitation";
 import KnowVillavicencio from "./components/knowVillavicencio";
 import Itinerary from "./components/itinerary";
 import Steps from "./components/steps";

@@ -139,6 +139,9 @@ p {
       text-align: center;
     } 
 }
+.container-card-steps {
+  inline-size: 85%;
+}
   .top-bar {
     display: flex;
     flex-direction: column;
@@ -239,7 +242,6 @@ p {
 
   }
   #lodging {
-    inline-size: 85%;
   background-color: var(--box3);
   h2{
     margin-block-start: 1.2rem;
@@ -376,7 +378,6 @@ h2 {
 }
 }
 
-
 #itinerary {
   display: flex;
   flex-direction: column;
@@ -385,7 +386,7 @@ h2 {
   background-color: var(--box3);
   padding-block: 1rem;
   padding-inline: 1.5rem;
-  inline-size: 75% !important;
+  inline-size: 75%;
 
     .top-bar {
     display: flex;
@@ -474,7 +475,7 @@ h2 {
 }
 
 #gifts {
-    inline-size: 70% !important;
+    inline-size: 70%;
   margin: auto;
   color: var(--dark);
 
@@ -543,6 +544,368 @@ h2 {
 }
   
 }
+
+@media screen and (min-width: 1280px) {
+  .container-component {
+    inline-size: 70% !important;
+}
+#invitation {
+   .invitation-photo {
+    img {
+          block-size: 40rem;
+    }
+    h1 {
+    font-size: 6.8rem;
+  }
+    .marry {
+    font-size: 3rem;
+    margin-block-start: -8rem;
+  }
+}
+  .data {
+    span {
+    font-size: 2rem;
+    }
+    p {
+    font-size: 1.8rem;
+    }
+  }
+    .invitation-logo {
+    h2 {
+    font-size: 3rem;
+  }
+    h3 {
+    font-size: 3rem;
+  }
+  svg {
+    height: 15rem;
+  }
+  }
+}
+
+#steps {
+.container-logos-rings {
+    h4 {
+      font-size: 2.8rem;
+    }
+    div {
+      img {
+        height: 7rem;
+      } 
+      div svg {
+        height: 7rem;
+      }
+    } 
+}
+.container-card-steps {
+  padding: 3rem !important;
+  gap: 2rem !important;
+}
+  .top-bar {
+    gap: 3rem;
+    .container-title-logo {
+        p {
+    font-size: 2.1rem;
+  }
+    h1 {
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+  }   
+  div svg {
+    width: auto;
+    height: 7rem;
+  }
+
+
+  }
+    .container-bottom-logo {
+
+    gap: 2rem;
+      p {
+    line-height: 2.3rem;
+    font-size: 2rem;
+    margin-block-end: 0.3rem;
+  }
+     h2 {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  }
+  }
+    .conten-aero {
+    row-gap: 2rem;
+    div svg {
+      height: 2.5rem;
+    }
+  }
+
+  .style-date {
+    font-size: 1.8rem;
+  }
+   
+
+  
+  #flight {
+  }
+  #suitcase {
+      #outfit {
+    font-size: 2.1rem;
+    
+  }
+    .clothes-conteiner {
+    column-gap: 2rem;
+    row-gap: 2rem;
+    
+  .icon-person {
+    div svg {
+    height: 5rem;
+    }
+  }
+  .clothes {
+    font-size: 1.8rem;
+  }
+  }
+
+  }
+  #lodging {
+  h2{
+
+    font-size: 2.1rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  .icon-hotels {
+    svg {
+width: 16rem;
+    }
+    div svg {
+      height: 7rem;
+
+    }
+  }
+  }
+  #transport {
+.container-title-logo {
+  p {
+    font-size: 2.1rem;
+  }
+} 
+    .cars {
+  margin-block: 1.5rem;
+    h2 {
+      font-size: 2rem;
+    }
+  
+  }
+  .priceCar p {
+    font-size: 1.7rem;
+  }
+  
+
+  }
+
+  .container-card-steps {
+    .icon {
+       div svg {
+    height: 5rem;
+    width: 5rem;
+  }
+    } 
+  }
+}
+
+#villavicencio {
+    .logo-villavo {
+ 
+    gap: 1rem;
+     .titleVillavo {
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 2.3rem;
+    }
+  }
+  }
+    .villavo-grid {
+    margin-top: 1.5rem;
+    column-gap: 3rem;
+    row-gap: 3rem;
+
+    div div svg {
+      height: 4rem;
+    }
+      p {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+  .icon-villavo {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+h2 {
+  margin-top: 3rem;
+  font-size: 2.5rem;
+}
+}
+
+#itinerary {
+  padding: 3rem;
+  inline-size: 60% !important;
+    .top-bar {
+    gap: 2rem;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    margin-block-end: 4rem;
+  }
+  .sub-itinerary {
+    font-size: 2rem;
+  }
+  h2 {
+    line-height: 1.3rem;
+    font-size: 2.1rem;
+    margin-block: 1.2rem;
+  }
+  h3 {
+    font-size: 2.2rem;
+  }
+
+  .date-event {
+    line-height: 2.5rem;
+    font-size: 1.8rem;
+    margin-block: 0.5rem;
+  }
+  .style-fech {
+    font-size: 1.9rem;
+  }
+  .description-event {
+    font-size: 1.8rem;
+
+    line-height: 2.5rem;
+  }
+  .container-itine {
+    margin-block-start: 1rem;
+    display: flex;
+    block-size: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .section-itinerary {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    gap: 2rem;
+    .event div svg {
+      height: 4rem;
+      width: auto;
+    }
+    .pre-wedding div svg {
+      height: 6rem;
+      width: auto; 
+    }
+  }
+  .pre-wedding {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+  .day {
+    padding-block: 1.2rem;
+    margin-block-start: 1.2rem;
+    margin-block-end: 0.7rem;
+    border-block: 2px solid var(--background);
+  }
+
+  .m {
+    margin-top: 0.4rem;
+  }
+
+  .event {
+    text-align: center;
+    margin-top: 0.2rem;
+  }
+  .schedule {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+}
+
+#gifts {
+  inline-size: 60% !important; 
+  .container-gifts {
+    inline-size: 100%;
+  }
+  h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+  h3 {
+    font-size: 2.1rem;
+    margin-block-start: 1rem;
+    line-height: 2.5rem;
+  }
+  div svg {
+   height: 6rem;
+  }
+  
+}
+
+#footer {
+  .dario-logo {
+    padding-block: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dario-photo {
+    width: 50%;
+    height: auto;
+  }
+  .together-sign {
+    width: 100%;
+    div {
+      width: 70%;
+    }
+  }
+
+  #networks {
+  gap: 1rem;
+  padding: 1rem;
+  inline-size: 90%;
+
+  .networkss {
+    font-size: 1.8rem;
+
+  }
+  .instagram {
+    transform: translateY(10%);
+    div svg {
+      height: 3rem;
+    }
+  }
+}
+  
+}
+
+}
+
+
+@media screen and (min-width: 960px) {
+}
+@media screen and (min-width: 640px) {
+}
+
 
 
 

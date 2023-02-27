@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import KnowVillavicencio from "./knowVillavicencio";
-import Invitation from "./Invitation";
+import Invitation from "./invitation";
 import Itinerary from "./itinerary";
 import Steps from "./steps";
 import imgBackgFotter from "./images/vintage_footer_background_image.png";
