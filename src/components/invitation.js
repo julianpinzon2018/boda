@@ -24,7 +24,6 @@ function Invitation() {
           CONTIGO
         </h2>
         <InvitedBadge />
-        <h3>PARA ASISTIR A LA BODA</h3>
       </div>
     </ProfileStyled>
   );

@@ -12,7 +12,7 @@ function TextLetsDoTogetherVector() {
     <TextLetsDoTogetherVectorStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="100%"
+        width="25rem"
         height="auto"
         version="1.1"
         viewBox="0 0 5309.14 926.26"

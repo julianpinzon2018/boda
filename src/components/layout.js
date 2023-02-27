@@ -9,7 +9,7 @@ import TableOfGifts from "./tableOfGifts";
 import Footer from "./footer";
 
 const LayoutStyled = styled.main`
-  max-inline-size: 1920px;
+  max-inline-size: 100vw;
   overflow-x: hidden !important;
   overflow-y: auto;
   display: flex;

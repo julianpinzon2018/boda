@@ -21,14 +21,20 @@ function Lodging() {
           <HotelBellIcon />
         </div>
         <div className="container-bottom-logo">
-          <h2>Sugerimos este hotel</h2>
+          <h2>Sugerimos estos hoteles</h2>
         </div>
       </div>
       <div className="icon-hotels">
-        <SvgComponent />
-        <GhlIcon />
+        <a href="https://www.estelarvillavicencio.com/" target="_bank">
+          <SvgComponent />
+        </a>
+        <a
+          href="https://www.ghlhoteles.com/bookcore/availability/rooms/ghlvillavi/?lang=es&occupancies=%255B%257B%2522ages%2522%253A%2520%2522%2522%252C%2520%2522adults%2522%253A%25201%252C%2520%2522children%2522%253A%25200%257D%255D&rrc=1&adults=1&occp=1"
+          target="_bank"
+        >
+          <GhlIcon />
+        </a>
       </div>
-      <h3>Pregunta por la boda de Mao y Luisa</h3>
     </LodgingStyled>
   );
 }

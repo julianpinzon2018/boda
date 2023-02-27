@@ -11,8 +11,8 @@ function EstelarLogo() {
     <EstelarLogoStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="40.0175mm"
-        height="9.1372mm"
+        width="4rem"
+        height="auto"
         version="1.1"
         viewBox="0 0 96.04 21.93"
       >

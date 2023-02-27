@@ -12,8 +12,8 @@ function WebdingFlowersIcon() {
     <WebdingFlowersIconStyled>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="9.2432mm"
-        height="12.8498mm"
+        width="3rem"
+        height="auto"
         version="1.1"
         viewBox="0 0 175.66 244.2"
       >
