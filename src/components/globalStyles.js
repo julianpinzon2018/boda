@@ -464,6 +464,10 @@ h2 {
     block-size: 100%;
     flex-direction: column;
     justify-content: space-between;
+      .place-link {
+    text-decoration: none;
+    color: var(--dark);
+  }
   }
   .section-itinerary {
     display: grid;

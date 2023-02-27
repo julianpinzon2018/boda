@@ -30,7 +30,14 @@ function Itinerary() {
                     Viernes <span className="style-fech">16/06/2023</span>
                   </p>
                   <p className="description-event">
-                    Cena en Restaurante Campestre Ave María
+                    Cena en Restaurante Campestre
+                    <a
+                      className="place-link"
+                      href="https://vm.tiktok.com/ZMYDEVDSd"
+                      target="bank"
+                    >
+                      &nbsp;Ave María
+                    </a>
                   </p>
                 </div>
                 <WebdingFlowersIcon />
@@ -47,8 +54,15 @@ function Itinerary() {
                     Sábado <span className="style-fech">17/06/2023</span>
                   </p>
                   <p className="description-event">
-                    Hacienda El Campanario en el municipio de Restrepo, a 13 km
-                    de Villavicencio. Salida desde el hotel en Chiva Rumbera
+                    <a
+                      className="place-link"
+                      href="https://goo.gl/maps/AFxEPMsiB7YGqxh77"
+                      target="_bank"
+                    >
+                      Hacienda El Campanario
+                    </a>
+                    &nbsp; en el municipio de Restrepo, a 13 km de
+                    Villavicencio. Salida desde el hotel en Chiva Rumbera
                   </p>
                 </div>
               </div>
