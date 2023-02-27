@@ -13,19 +13,21 @@ const GlobalStylesStyled = createGlobalStyle`
   --box4: #fcd3c2;
   --primary:italic 600  1rem Playfair Display ;
   --secondary: 600 2.3rem Playfair Display;
-  --three: 13px Prata;
-  --four: 600 5.3px Playfair Display;
+  --three: 0.8125rem Prata;
+  --four: 600 0.33125rem Playfair Display;
   --five: 1rem bebas kai;
-  --six:  13.3px bahnschrift;
-  --seven: 9.3px bahnschrift;
+  --six:  0.83125rem bahnschrift;
+  --seven: 0.58125rem bahnschrift;
   --nueve: .5rem bahnschrift;
   --diez: 1.6rem authentic;
+
 }
 body {
   margin: 0;
   background: var(--background);
   overflow-y: auto;
   overflow-x: hidden;
+
 }
  h1 {
   margin: 0;
@@ -266,11 +268,7 @@ p {
       margin-block-start : 1rem;
     }
   }
-.container-title-logo {
-  p {
-    font-size: 1.1rem;
-  }
-} 
+
 
 
     .cars {
@@ -906,6 +904,16 @@ h2 {
 @media screen and (min-width: 640px) {
 } */
 
+@media screen and (min-width: 1280px) {
+ font-size: 22px; 
+}
+@media screen and (min-width: 920px) {
+  font-size: 20px;
+  
+}
+@media screen and (min-width: 760px) {
+  font-size: 16px;
+}
 
 
 
