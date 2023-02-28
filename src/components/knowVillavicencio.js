@@ -18,7 +18,7 @@ function KnowVillavicencio({ setModal }) {
           <h1>CONOCE ALGO DE VILLAVICENCIO</h1>
           <p>Sabemos que te va a encantar</p>
         </div>
-        <div>
+        <div onClick={() => setModal(true)} id="play">
           <Play setModal={setModal} />
           <VillavoIlustrationCity />
         </div>
