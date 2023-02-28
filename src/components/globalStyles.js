@@ -273,14 +273,16 @@ p {
 
 
     .cars {
+    margin-inline: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     margin-block-end: 0.8rem;
     align-items: center;
     margin-block-end: 1rem;
     margin-block-start: 0.5rem;
       
     .button-transport {
+
       text-align: center;
   font-family: "Open Sans", sans-serif;
   font-size: .8rem;
@@ -290,9 +292,9 @@ p {
   text-transform: uppercase;
   color: #000;
   cursor: pointer;
-  border: 3px solid;
+  border: 3px solid var(--dark);
   padding: 0.25em 0.5em;
-  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  box-shadow: var(--dark) 1px 1px 0px 0px, var(--dark) 2px 2px 0px 0px, var(--dark) 3px 3px 0px 0px, var(--dark) 4px 4px 0px 0px, var(--dark) 5px 5px 0px 0px;
   position: relative;
   user-select: none;
   -webkit-user-select: none;
