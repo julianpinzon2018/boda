@@ -6,7 +6,7 @@ function PlaySquareSvgrepoCom() {
   return (
     <PlaySquareSvgrepoComStyled>
       <svg
-        width="auto"
+        // width="auto"
         height="2rem"
         viewBox="0 0 24 24"
         fill="none"
@@ -14,7 +14,7 @@ function PlaySquareSvgrepoCom() {
       >
         <path
           opacity="0.1"
-          fillRulle="evenodd"
+          // fillRulle="evenodd"
           clipRule="evenodd"
           d="M12 3C4.5885 3 3 4.5885 3 12C3 19.4115 4.5885 21 12 21C19.4115 21 21 19.4115 21 12C21 4.5885 19.4115 3 12 3ZM15.224 13.0171C16.011 12.5674 16.011 11.4326 15.224 10.9829L10.7817 8.44446C10.0992 8.05446 9.25 8.54727 9.25 9.33333L9.25 14.6667C9.25 15.4527 10.0992 15.9455 10.7817 15.5555L15.224 13.0171Z"
           fill="#323232"

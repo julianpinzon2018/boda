@@ -3,11 +3,11 @@ import styled from "styled-components";
 const InstagramLogoStyled = styled.div`
   .fil1 {
     fill: #fefefe;
-    fillrulle: nonzero;
+    /* fillRulle: nonzero; */
   }
   .fil0 {
     fill: #704e39;
-    fillrulle: nonzero;
+    /* fill-rulle: nonzero; */
   }
 `;
 

@@ -3,7 +3,7 @@ import styled from "styled-components";
 const ManJacketIconStyled = styled.div`
   .fil0 {
     fill: #704e39;
-    fillrulle: nonzero;
+    /* fillrulle: nonzero; */
   }
 `;
 

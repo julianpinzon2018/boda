@@ -6,11 +6,11 @@ const NumberThreeIconStyled = styled.div`
   }
   .fil2 {
     fill: #f58634;
-    fillrulle: nonzero;
+    /* fillrulle: nonzero; */
   }
   .fil0 {
     fill: #704e39;
-    fillrulle: nonzero;
+    /* fillrulle: nonzero; */
   }
 `;
 

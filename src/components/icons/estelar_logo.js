@@ -12,7 +12,7 @@ function EstelarLogo() {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="4rem"
-        height="auto"
+        // height="auto"
         version="1.1"
         viewBox="0 0 96.04 21.93"
       >

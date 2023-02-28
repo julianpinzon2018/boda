@@ -6,7 +6,7 @@ function CloseSquareSvgrepoCom() {
   return (
     <CloseSquareSvgrepoComStyled>
       <svg
-        width="auto"
+        // width="auto"
         height="2rem"
         viewBox="0 0 24 24"
         fill="none"

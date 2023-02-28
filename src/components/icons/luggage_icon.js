@@ -3,15 +3,15 @@ import styled from "styled-components";
 const LuggageIconStyled = styled.div`
   .fil2 {
     fill: #fcd3c2;
-    fillrulle: nonzero;
+    /* fillrulle: nonzero; */
   }
   .fil1 {
     fill: #f1b48c;
-    fillrulle: nonzero;
+    /* fillrulle: nonzero; */
   }
   .fil0 {
     fill: #704e39;
-    fillrulle: nonzero;
+    /* fillrulle: nonzero; */
   }
 `;
 

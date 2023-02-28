@@ -21,7 +21,7 @@ const AirplaneBogColIconStyled = styled.div`
   }
   .fil0 {
     fill: #704e39;
-    fillrulle: nonzero;
+    /* fillRulle: nonzero; */
   }
 `;
 

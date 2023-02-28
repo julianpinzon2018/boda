@@ -3,7 +3,7 @@ import styled from "styled-components";
 const WebdingFlowersIconStyled = styled.div`
   .fil0 {
     fill: #704e39;
-    fillrulle: nonzero;
+    /* fillrulle: nonzero; */
   }
 `;
 
@@ -13,7 +13,7 @@ function WebdingFlowersIcon() {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="3rem"
-        height="auto"
+        // height="auto"
         version="1.1"
         viewBox="0 0 175.66 244.2"
       >
