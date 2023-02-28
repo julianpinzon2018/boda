@@ -403,7 +403,6 @@ h2 {
   transform: translateY(-50%) translateX(-50%);
   inset-inline-start: 50%;
   overflow: hidden;
-  background: #0d1117;
   display: block;
   max-inline-size: 1000px;
 
