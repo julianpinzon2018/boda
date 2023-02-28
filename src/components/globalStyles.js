@@ -407,7 +407,7 @@ h2 {
   display: block;
   max-inline-size: 1000px;
 
-  inline-size: 75%;
+  inline-size: 85%;
 
   .video-responsive {
     max-inline-size: 1000px;
