@@ -6,10 +6,11 @@ import VillavoLocationIcon from "./icons/villavo_location_icon";
 import VillavoPopulationIcon from "./icons/villavo_population_icon";
 import VillavoWeatherIcon from "./icons/villavo_weather_icon";
 import WebdingGastronomyIcon from "./icons/webding_gastronomy_icon";
+import Play from "./play";
 
 const KnowVillavicencioStyled = styled.div``;
 
-function KnowVillavicencio() {
+function KnowVillavicencio({ setModal }) {
   return (
     <KnowVillavicencioStyled className="container-component" id="villavicencio">
       <div className="logo-villavo">
@@ -17,7 +18,10 @@ function KnowVillavicencio() {
           <h1>CONOCE ALGO DE VILLAVICENCIO</h1>
           <p>Sabemos que te va a encantar</p>
         </div>
-        <VillavoIlustrationCity />
+        <div>
+          <Play setModal={setModal} />
+          <VillavoIlustrationCity />
+        </div>
       </div>
       <div className="villavo-grid">
         <div className="icon-villavo">

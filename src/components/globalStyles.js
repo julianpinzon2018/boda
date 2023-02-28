@@ -311,10 +311,6 @@ p {
   }
 }
       }
-    p {
-      font: var(--seven);
-      font-size: 0.95rem;
-    }
   }
   
 
@@ -345,7 +341,7 @@ p {
       transform: translateX(-110%);
     } 
   }
-}
+
 
 #villavicencio {
     .logo-villavo {
@@ -400,6 +396,43 @@ h2 {
   font-size: 1.5rem;
   color: var(--yellow);
 }
+}
+#container-modal {
+    position: relative;
+  inset-block-start: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  inset-inline-start: 50%;
+  overflow: hidden;
+  background: #0d1117;
+  display: block;
+  max-inline-size: 1000px;
+
+  inline-size: 75%;
+
+  .video-responsive {
+    max-inline-size: 1000px;
+    inline-size: 100%;
+    display: inline-block;
+    block-size: auto;
+    aspect-ratio: 16/9;
+  }
+}
+#close {
+    cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  inset-block-start: 0;
+  inset-inline-end: 0;
+  position: absolute;
+}
+#overlay {
+    backdrop-filter: blur(10px);
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+}
+#play {
+  cursor: pointer;
 }
 
 #itinerary {

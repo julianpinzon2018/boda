@@ -3,7 +3,7 @@ import styled from "styled-components";
 const InvitedBadgeStyled = styled.div`
   .fil0 {
     fill: #704e39;
-    fill-rule: nonzero;
+    fillrulle: nonzero;
   }
 `;
 
