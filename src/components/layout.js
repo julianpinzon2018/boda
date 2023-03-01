@@ -7,8 +7,8 @@ import imgBackgFotter from "./images/vintage_footer_background_image.png";
 import image from "./images/header_imagess.png";
 import TableOfGifts from "./tableOfGifts";
 import Footer from "./footer";
-import { useState } from "react";
 import Modal from "./videoVillavicencio";
+import ModalContextProvider from "../context/ModalContext";
 
 const LayoutStyled = styled.main`
   max-inline-size: 100vw;
@@ -35,21 +35,20 @@ const LayoutStyled = styled.main`
 `;
 
 function Layout() {
-  const [modal, setModal] = useState(false);
   return (
-    <LayoutStyled>
-      <Modal modal={modal} setModal={setModal} />
-      <img className="image-background" src={image} alt="" />
-
-      <Invitation />
-      <Steps />
-      <KnowVillavicencio setModal={setModal} />
-      <Itinerary />
-      <TableOfGifts />
-      <Footer />
-
-      <img className="img-backg-fotter" src={imgBackgFotter} alt="" />
-    </LayoutStyled>
+    <ModalContextProvider>
+      <LayoutStyled>
+        <Modal />
+        <img className="image-background" src={image} alt="" />
+        <Invitation />
+        <Steps />
+        <KnowVillavicencio />
+        <Itinerary />
+        <TableOfGifts />
+        <Footer />
+        <img className="img-backg-fotter" src={imgBackgFotter} alt="" />
+      </LayoutStyled>
+    </ModalContextProvider>
   );
 }
 

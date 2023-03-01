@@ -7,10 +7,14 @@ import VillavoPopulationIcon from "./icons/villavo_population_icon";
 import VillavoWeatherIcon from "./icons/villavo_weather_icon";
 import WebdingGastronomyIcon from "./icons/webding_gastronomy_icon";
 import Play from "./play";
+import { useContext } from "react";
+import { ModalContext } from "../context/ModalContext";
 
 const KnowVillavicencioStyled = styled.div``;
 
-function KnowVillavicencio({ setModal }) {
+function KnowVillavicencio() {
+  // { setModal }
+  const { setModal } = useContext(ModalContext);
   return (
     <KnowVillavicencioStyled className="container-component" id="villavicencio">
       <div className="logo-villavo">
@@ -19,7 +23,7 @@ function KnowVillavicencio({ setModal }) {
           <p>Sabemos que te va a encantar</p>
         </div>
         <div onClick={() => setModal(true)} id="play">
-          <Play setModal={setModal} />
+          <Play />
           <VillavoIlustrationCity />
         </div>
       </div>

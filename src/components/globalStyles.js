@@ -24,9 +24,10 @@ const GlobalStylesStyled = createGlobalStyle`
 }
 body {
   margin: 0;
-  background: var(--background);
+  background-color: var(--background);
   overflow-y: auto;
   overflow-x: hidden;
+
 
 }
  h1 {
@@ -63,6 +64,7 @@ p {
 }
 
 #invitation {
+
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -70,7 +72,6 @@ p {
   margin-block-start: 1.5rem;
    .invitation-photo {
     color: var(--marry);
-
     img {
           block-size: 18rem;
     inline-size: auto;

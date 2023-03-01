@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import ReactDOM from "react-dom";
+import { ModalContext } from "../context/ModalContext";
 import ContainerModal from "./containerModal";
 
 const modalRoot = document.getElementById("modalVideo");
@@ -21,11 +22,15 @@ class ModalPortal extends React.Component {
   }
 }
 
-export default function Modal({ modal, setModal }) {
+export default function Modal() {
+  // { modal, setModal }
+  const { modal } = useContext(ModalContext);
   if (modal) {
     return (
       <ModalPortal>
-        <ContainerModal setModal={setModal} />
+        <ContainerModal
+        // setModal={setModal}
+        />
       </ModalPortal>
     );
   }

@@ -4,12 +4,12 @@ import Close from "./close";
 
 const ContainerModalStyled = styled.div``;
 
-function ContainerModal({ setModal }) {
+function ContainerModal() {
+  // { setModal }
   return (
     <Overlay>
       <ContainerModalStyled id="container-modal">
-        <Close setModal={setModal} />
-
+        <Close />
         <iframe
           className="video-responsive"
           width="560"
@@ -19,7 +19,7 @@ function ContainerModal({ setModal }) {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
-        ></iframe>
+        />
       </ContainerModalStyled>
     </Overlay>
   );
