@@ -435,6 +435,7 @@ h2 {
 }
 #play {
   cursor: pointer;
+  text-align: center;
 }
 
 #itinerary {

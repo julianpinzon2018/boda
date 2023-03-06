@@ -6,7 +6,7 @@ import VillavoLocationIcon from "./icons/villavo_location_icon";
 import VillavoPopulationIcon from "./icons/villavo_population_icon";
 import VillavoWeatherIcon from "./icons/villavo_weather_icon";
 import WebdingGastronomyIcon from "./icons/webding_gastronomy_icon";
-import Play from "./play";
+import play from "./images/youtube.png";
 import { useContext } from "react";
 import { ModalContext } from "../context/ModalContext";
 
@@ -23,7 +23,7 @@ function KnowVillavicencio() {
           <p>Sabemos que te va a encantar</p>
         </div>
         <div onClick={() => setModal(true)} id="play">
-          <Play />
+          <img src={play} alt="" width="35" height="35" />
           <VillavoIlustrationCity />
         </div>
       </div>

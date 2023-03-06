@@ -37,7 +37,7 @@ function Transport() {
       </div>
       <div className="priceCar">
         <p>
-          "Tiene un costo aproximado de 60 USD, donde podrás viajar solo o con
+          Tiene un costo aproximado de 60 USD, donde podrás viajar solo o con
           hasta 2 compañeros que tambien asistan a la boda
         </p>
       </div>
