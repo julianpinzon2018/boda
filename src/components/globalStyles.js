@@ -424,7 +424,7 @@ h2 {
   width: 2rem;
   height: 2rem;
   inset-block-start: 0;
-  inset-inline-end: 0;
+  inset-inline-end: -.86rem;
   position: absolute;
 }
 #overlay {
