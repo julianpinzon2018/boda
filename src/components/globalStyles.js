@@ -501,7 +501,7 @@ h2 {
     justify-content: space-between;
       .place-link {
     text-decoration: none;
-    color: var(--dark);
+    color: #3388FF;
     text-decoration: underline;
 
     

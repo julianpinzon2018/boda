@@ -2,6 +2,7 @@ import styled from "styled-components";
 import WebdingScheduleIcon from "./icons/webding_schedule_icon";
 import WebdingFlowersIcon from "./icons/webding_flowers_icon";
 import WebdingRingsIcon from "./icons/webding_rings_icon";
+import LocationPointSvgrepoCom from "./icons/location-point-svgrepo-com";
 
 const ItineraryStyled = styled.div``;
 
@@ -30,13 +31,13 @@ function Itinerary() {
                     Viernes <span className="style-fech">16/06/2023</span>
                   </p>
                   <p className="description-event">
-                    Cena en Restaurante Campestre
+                    Cena en &#127828;&nbsp;
                     <a
                       className="place-link"
                       href="https://vm.tiktok.com/ZMYDEVDSd"
                       target="bank"
                     >
-                      &nbsp;Ave María
+                      Restaurante Campestre Ave María
                     </a>
                   </p>
                 </div>
@@ -59,6 +60,7 @@ function Itinerary() {
                       href="https://goo.gl/maps/AFxEPMsiB7YGqxh77"
                       target="_bank"
                     >
+                      <LocationPointSvgrepoCom />
                       Hacienda El Campanario
                     </a>
                     &nbsp; en el municipio de Restrepo, a 13 km de
