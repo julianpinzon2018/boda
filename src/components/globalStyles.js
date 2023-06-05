@@ -495,6 +495,20 @@ h2 {
 
     line-height: 1.2rem;
   }
+
+  .description-event.event-detail {
+    font-size: 0.95rem;
+    margin-block-start: 1rem;
+    
+    p {
+      margin-block: 0.5rem;  
+    }
+    
+    img {
+      width: 100%;
+    }
+  }
+
   .container-itine {
     display: flex;
     block-size: 100%;
