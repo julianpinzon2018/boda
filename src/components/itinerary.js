@@ -13,7 +13,7 @@ function Itinerary() {
   return (
     <ItineraryStyled className="container-component" id="itinerary">
       <a
-        href="#gifts"
+        href="/#gifts"
         style={{
           display: "none",
         }}
