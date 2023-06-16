@@ -12,6 +12,14 @@ const ItineraryStyled = styled.div``;
 function Itinerary() {
   return (
     <ItineraryStyled className="container-component" id="itinerary">
+      <a
+        href="#gifts"
+        style={{
+          display: "none",
+        }}
+      >
+        gifts
+      </a>
       <div className="top-bar">
         <div className="reserva">
           <h1>
