@@ -52,7 +52,7 @@ const TableOfGiftsStyled = styled.div`
 
 function TableOfGifts() {
   return (
-    <TableOfGiftsStyled className="container-component" id="gifts">
+    <TableOfGiftsStyled className="container-component" id="gifts" name="gifts">
       <div className="container-gifts">
         <h2>MESA DE REGALOS</h2>
         <GiftIcon />
