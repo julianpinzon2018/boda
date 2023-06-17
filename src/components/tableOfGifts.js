@@ -66,22 +66,40 @@ function TableOfGifts() {
         <div className="section-bancos__pais">
           <h2>TRANSFERENCIAS DESDE MEXICO</h2>
           <div>
+            <h3>Banco BBVA Bancomer</h3>
+            <p>Andres Mauricio Pinzon</p>
             <p>
               CLABE:&nbsp;
               <strong>0121 8001 5799 377426</strong>
             </p>
-            <p>Banco BBVA Bancomer</p>
-            <p>Andres Mauricio Pinzon</p>
           </div>
         </div>
         <div className="section-bancos__pais">
           <h2>TRANSFERENCIAS DESDE COLOMBIA</h2>
-          <img
-            className="bancos davivienda"
-            src={Davivienda}
-            alt="QR de Bancolombia"
-          />
-          <img className="bancos" src={Bancolombia} alt="QR de Davivienda" />
+          <div>
+            <h3>Banco Davivienda</h3>
+            <p>Andres Mauricio Pinzon Puentes</p>
+            <p>
+              CLABE:&nbsp;
+              <strong>488402583717</strong>
+            </p>
+            <p>
+              CC:&nbsp;
+              <strong>1121895025</strong>
+            </p>
+          </div>
+          <div>
+            <h3>Bancolombia</h3>
+            <p>Andres Mauricio Pinzon Puentes</p>
+            <p>
+              CLABE:&nbsp;
+              <strong>84984030231</strong>
+            </p>
+            <p>
+              CC:&nbsp;
+              <strong>1121895025</strong>
+            </p>
+          </div>
         </div>
       </section>
     </TableOfGiftsStyled>
