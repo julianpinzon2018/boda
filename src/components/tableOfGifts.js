@@ -92,7 +92,7 @@ function TableOfGifts() {
             <h3>Bancolombia</h3>
             <p>Andres Mauricio Pinzon Puentes</p>
             <p>
-              CLABE:&nbsp;
+              Cuenta:&nbsp;
               <strong>84984030231</strong>
             </p>
             <p>
